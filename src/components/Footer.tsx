@@ -16,7 +16,7 @@ const Footer = () => {
               Over 20 years of excellence.
             </p>
             <p className="text-xs text-primary-foreground/60">
-              Licensed &amp; Bonded • CA License #123456
+              Licensed &amp; Bonded • CA License #895999
             </p>
           </div>
 
@@ -66,25 +66,25 @@ const Footer = () => {
               <li className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-gold" />
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+18182573732"
                   className="text-sm text-primary-foreground/80 transition-colors hover:text-primary-foreground"
                 >
-                  (123) 456-7890
+                  (818) 257-3732
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-gold" />
                 <a
-                  href="mailto:info@sosav.com"
+                  href="mailto:info@laproav.com"
                   className="text-sm text-primary-foreground/80 transition-colors hover:text-primary-foreground"
                 >
-                  info@sosav.com
+                  info@laproav.com
                 </a>
               </li>
               <li className="flex items-start space-x-3">
                 <MapPin className="mt-1 h-4 w-4 text-gold" />
                 <span className="text-sm text-primary-foreground/80">
-                  Serving Greater Los Angeles Area
+                  Serving the Greater Los Angeles Area
                 </span>
               </li>
             </ul>

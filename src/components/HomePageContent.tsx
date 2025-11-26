@@ -1,4 +1,5 @@
-import { Phone, Award, Shield, Clock } from "lucide-react";
+import Link from "next/link";
+import { Phone, Award, Shield, Clock, Star, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";
@@ -15,16 +16,20 @@ const HomePageContent = () => {
         <Button
           size="lg"
           className="h-auto px-8 py-6 text-lg font-semibold shadow-lg bg-accent text-accent-foreground hover:bg-accent/90"
+          asChild
         >
-          <Phone className="mr-2 h-5 w-5" />
-          Book Free On-Site Estimate
+          <a href="tel:+18182573732">
+            <Phone className="mr-2 h-5 w-5" />
+            Book Free On-Site Estimate
+          </a>
         </Button>
         <Button
           size="lg"
           variant="outline"
           className="h-auto px-8 py-6 text-lg bg-background/10 text-primary-foreground border-primary-foreground/20 backdrop-blur-sm hover:bg-background/20"
+          asChild
         >
-          View Our Work
+          <Link href="#gallery">View Our Work</Link>
         </Button>
       </Hero>
 
@@ -65,6 +70,7 @@ const HomePageContent = () => {
       <Section
         title="Premium Installation Services"
         subtitle="From dedicated home theaters to whole-home automation, we bring your vision to life"
+        id="gallery"
       >
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {[
@@ -115,6 +121,134 @@ const HomePageContent = () => {
         </div>
       </Section>
 
+      {/* Reviews & Social Proof */}
+      <Section
+        title="Reviews & Social Proof"
+        subtitle="4.8 ★ rating with 100+ reviews on Yelp. Real feedback from homeowners across Los Angeles."
+      >
+        {/* Rating Summary */}
+        <div className="mx-auto mb-12 max-w-4xl text-center">
+          <div className="mb-4 inline-flex items-center gap-2">
+            <span className="text-5xl font-bold text-foreground">4.8</span>
+            <Star className="h-8 w-8 fill-gold text-gold" />
+          </div>
+          <p className="mb-6 text-muted-foreground">Based on 100+ Yelp reviews</p>
+          <Button variant="outline" size="lg" asChild>
+            <a
+              href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?osq=SOS+standing+ovation+surround+sound&override_cta=Request+quote+%26+availability"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2"
+            >
+              View All Reviews on Yelp
+              <ExternalLink className="h-4 w-4" />
+            </a>
+          </Button>
+        </div>
+
+        {/* Review Cards */}
+        <div className="mx-auto mb-12 grid max-w-6xl grid-cols-1 gap-8 md:grid-cols-3">
+          {/* Review 1 - Amanda T. */}
+          <div className="rounded-lg border border-border bg-card p-6 transition-shadow hover:shadow-lg">
+            <div className="mb-4 flex items-center justify-between">
+              <h3 className="text-lg font-semibold">Amanda T.</h3>
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-4 w-4 fill-gold text-gold" />
+                ))}
+              </div>
+            </div>
+            <p className="mb-4 text-muted-foreground">
+              Ron installed our 65-inch 2021 Samsung Frame TV. Professional, careful, and extremely
+              clean installation. He walked us through options, explained everything clearly, and
+              made the whole process easy.
+            </p>
+            <a
+              href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=M_TNRAGfzBX-zE24-Thw0g"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-sm text-accent transition-colors hover:text-accent/80"
+            >
+              Read full review on Yelp
+              <ExternalLink className="h-3 w-3" />
+            </a>
+          </div>
+
+          {/* Review 2 - Rich O. */}
+          <div className="rounded-lg border border-border bg-card p-6 transition-shadow hover:shadow-lg">
+            <div className="mb-4 flex items-center justify-between">
+              <h3 className="text-lg font-semibold">Rich O.</h3>
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-4 w-4 fill-gold text-gold" />
+                ))}
+              </div>
+            </div>
+            <p className="mb-4 text-muted-foreground">
+              I had quotes from others, but Ron&apos;s honesty and expertise stood out. The
+              installation was precise, cables were hidden perfectly, and the work was completed
+              faster than expected. Highly recommended.
+            </p>
+            <a
+              href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=pxPaa95rRxhMGY6hA-RvSg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-sm text-accent transition-colors hover:text-accent/80"
+            >
+              Read full review on Yelp
+              <ExternalLink className="h-3 w-3" />
+            </a>
+          </div>
+
+          {/* Review 3 - Timothy V. */}
+          <div className="rounded-lg border border-border bg-card p-6 transition-shadow hover:shadow-lg">
+            <div className="mb-4 flex items-center justify-between">
+              <h3 className="text-lg font-semibold">Timothy V.</h3>
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-4 w-4 fill-gold text-gold" />
+                ))}
+              </div>
+            </div>
+            <p className="mb-4 text-muted-foreground">
+              Ron arrived prepared with all tools needed. Everything was measured and leveled
+              perfectly. He and his assistant cleaned up thoroughly afterward. Incredible service
+              and craftsmanship.
+            </p>
+            <a
+              href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=G4IcJ4hiRtYUesgzhdHBug"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-sm text-accent transition-colors hover:text-accent/80"
+            >
+              Read full review on Yelp
+              <ExternalLink className="h-3 w-3" />
+            </a>
+          </div>
+        </div>
+
+        {/* Badges / License Strip */}
+        <div className="mx-auto max-w-5xl">
+          <div className="grid grid-cols-1 gap-6 text-center md:grid-cols-3">
+            <div className="rounded-lg bg-muted/30 p-4">
+              <p className="text-sm text-muted-foreground">
+                Licensed, insured, and bonded low-voltage contractor in California
+              </p>
+            </div>
+            <div className="rounded-lg bg-muted/30 p-4">
+              <p className="text-sm text-muted-foreground">
+                Recognized among top home theater installers in Los Angeles
+              </p>
+            </div>
+            <div className="rounded-lg bg-muted/30 p-4">
+              <p className="text-sm text-muted-foreground">
+                5-star average over the last 3+ years on Yelp
+              </p>
+            </div>
+          </div>
+        </div>
+      </Section>
+
       {/* CTA Section */}
       <Section className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-3xl text-center">
@@ -129,16 +263,20 @@ const HomePageContent = () => {
             <Button
               size="lg"
               className="h-auto px-8 py-6 text-lg font-semibold bg-accent text-accent-foreground hover:bg-accent/90"
+              asChild
             >
-              <Phone className="mr-2 h-5 w-5" />
-              Call (123) 456-7890
+              <a href="tel:+18182573732">
+                <Phone className="mr-2 h-5 w-5" />
+                Call (818) 257-3732
+              </a>
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="h-auto px-8 py-6 text-lg bg-primary-foreground/10 text-primary-foreground border-primary-foreground/20 hover:bg-primary-foreground/20"
+              asChild
             >
-              Request Estimate Online
+              <Link href="/contact">Request Estimate Online</Link>
             </Button>
           </div>
         </div>
