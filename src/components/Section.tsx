@@ -49,7 +49,7 @@ const Section = ({
         {(title || subtitle) && (
           <div className="mx-auto mb-12 max-w-3xl text-center md:mb-16">
             {title && (
-              <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
+              <h2 className="mb-4 text-2xl font-bold text-foreground md:text-3xl lg:text-4xl">
                 {title}
               </h2>
             )}
@@ -69,4 +69,3 @@ const Section = ({
 };
 
 export default Section;
-

@@ -15,7 +15,7 @@ const HomePageContent = () => {
       >
         <Button
           size="lg"
-          className="h-auto px-8 py-6 text-lg font-semibold shadow-lg bg-accent text-accent-foreground hover:bg-accent/90"
+          className="h-auto px-7 py-5 text-base font-semibold"
           asChild
         >
           <a href="tel:+18182573732">
@@ -37,8 +37,8 @@ const HomePageContent = () => {
       <Section className="bg-muted/30">
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-3">
           <div className="text-center">
-            <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-accent/10 text-accent">
-              <Award className="h-8 w-8" />
+            <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-background text-primary ring-1 ring-border">
+              <Award className="h-7 w-7" />
             </div>
             <h3 className="mb-2 text-xl font-semibold">20+ Years Experience</h3>
             <p className="text-muted-foreground">
@@ -46,8 +46,8 @@ const HomePageContent = () => {
             </p>
           </div>
           <div className="text-center">
-            <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-gold/10 text-gold">
-              <Shield className="h-8 w-8" />
+            <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-background text-primary ring-1 ring-border">
+              <Shield className="h-7 w-7" />
             </div>
             <h3 className="mb-2 text-xl font-semibold">Licensed &amp; Bonded</h3>
             <p className="text-muted-foreground">
@@ -55,8 +55,8 @@ const HomePageContent = () => {
             </p>
           </div>
           <div className="text-center">
-            <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-full bg-accent/10 text-accent">
-              <Clock className="h-8 w-8" />
+            <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-background text-primary ring-1 ring-border">
+              <Clock className="h-7 w-7" />
             </div>
             <h3 className="mb-2 text-xl font-semibold">Lifetime Support</h3>
             <p className="text-muted-foreground">
@@ -107,7 +107,7 @@ const HomePageContent = () => {
           ].map((service, index) => (
             <div
               key={index}
-              className="rounded-lg border border-border bg-card p-6 transition-shadow hover:shadow-lg"
+              className="rounded-lg border border-border bg-card p-6 transition-shadow hover:shadow-md"
             >
               <h3 className="mb-3 text-xl font-semibold">{service.title}</h3>
               <p className="text-muted-foreground">{service.description}</p>
@@ -167,7 +167,7 @@ const HomePageContent = () => {
               href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=M_TNRAGfzBX-zE24-Thw0g"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm text-accent transition-colors hover:text-accent/80"
+              className="inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors hover:text-primary/80"
             >
               Read full review on Yelp
               <ExternalLink className="h-3 w-3" />
@@ -193,7 +193,7 @@ const HomePageContent = () => {
               href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=pxPaa95rRxhMGY6hA-RvSg"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm text-accent transition-colors hover:text-accent/80"
+              className="inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors hover:text-primary/80"
             >
               Read full review on Yelp
               <ExternalLink className="h-3 w-3" />
@@ -219,7 +219,7 @@ const HomePageContent = () => {
               href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=G4IcJ4hiRtYUesgzhdHBug"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm text-accent transition-colors hover:text-accent/80"
+              className="inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors hover:text-primary/80"
             >
               Read full review on Yelp
               <ExternalLink className="h-3 w-3" />
@@ -252,7 +252,7 @@ const HomePageContent = () => {
       {/* CTA Section */}
       <Section className="bg-primary text-primary-foreground">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="mb-6 text-3xl font-bold md:text-4xl lg:text-5xl">
+          <h2 className="mb-6 text-2xl font-bold md:text-3xl lg:text-4xl">
             Ready to Transform Your Home?
           </h2>
           <p className="mb-8 text-xl text-primary-foreground/90">
@@ -262,7 +262,7 @@ const HomePageContent = () => {
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <Button
               size="lg"
-              className="h-auto px-8 py-6 text-lg font-semibold bg-accent text-accent-foreground hover:bg-accent/90"
+              className="h-auto px-8 py-6 text-lg font-semibold"
               asChild
             >
               <a href="tel:+18182573732">

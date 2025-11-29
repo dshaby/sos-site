@@ -45,7 +45,7 @@ const Hero = ({
       {/* Content */}
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h1 className="mb-6 text-4xl font-bold tracking-tight text-primary-foreground leading-tight md:text-5xl lg:text-6xl xl:text-7xl">
+          <h1 className="mb-6 text-3xl font-bold tracking-tight text-primary-foreground leading-tight md:text-4xl lg:text-5xl">
             {title}
           </h1>
           {subtitle && (
@@ -65,4 +65,3 @@ const Hero = ({
 };
 
 export default Hero;
-

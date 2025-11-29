@@ -1,9 +1,10 @@
- "use client";
+"use client";
 
 import { useState } from "react";
 import Link from "next/link";
 import { Phone, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { NavLink } from "@/components/NavLink";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -26,36 +27,41 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link
+            <NavLink
               href="/"
-              className="text-sm font-medium text-foreground hover:text-accent transition-colors"
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              activeClassName="text-foreground"
             >
               Home
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               href="/about"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              activeClassName="text-foreground"
             >
               About
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               href="/services"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              activeClassName="text-foreground"
             >
               Services
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               href="/gallery"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              activeClassName="text-foreground"
             >
               Gallery
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               href="/contact"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              activeClassName="text-foreground"
             >
               Contact
-            </Link>
+            </NavLink>
           </nav>
 
           {/* CTA + Mobile Menu Button */}
@@ -73,7 +79,6 @@ const Header = () => {
             <Button
               variant="default"
               size="sm"
-              className="bg-accent text-accent-foreground hover:bg-accent/90"
               asChild
             >
               <Link href="/contact">Free Estimate</Link>
@@ -101,41 +106,46 @@ const Header = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden border-t border-border bg-background">
           <nav className="container mx-auto px-4 py-4 space-y-2">
-            <Link
+            <NavLink
               href="/"
-              className="block text-sm font-medium text-foreground hover:text-accent transition-colors"
+              className="block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              activeClassName="text-foreground"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Home
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               href="/about"
               className="block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              activeClassName="text-foreground"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               About
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               href="/services"
               className="block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              activeClassName="text-foreground"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Services
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               href="/gallery"
               className="block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              activeClassName="text-foreground"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Gallery
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               href="/contact"
               className="block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              activeClassName="text-foreground"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Contact
-            </Link>
+            </NavLink>
           </nav>
         </div>
       )}
