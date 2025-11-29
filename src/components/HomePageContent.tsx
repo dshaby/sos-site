@@ -37,7 +37,7 @@ const HomePageContent = () => {
       <Section className="bg-muted/30">
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-3">
           <div className="text-center">
-            <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-background text-primary ring-1 ring-border">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full border-2 border-primary text-primary mb-4">
               <Award className="h-7 w-7" />
             </div>
             <h3 className="mb-2 text-xl font-semibold">20+ Years Experience</h3>
@@ -46,7 +46,7 @@ const HomePageContent = () => {
             </p>
           </div>
           <div className="text-center">
-            <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-background text-primary ring-1 ring-border">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full border-2 border-primary text-primary mb-4">
               <Shield className="h-7 w-7" />
             </div>
             <h3 className="mb-2 text-xl font-semibold">Licensed &amp; Bonded</h3>
@@ -55,7 +55,7 @@ const HomePageContent = () => {
             </p>
           </div>
           <div className="text-center">
-            <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-background text-primary ring-1 ring-border">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full border-2 border-primary text-primary mb-4">
               <Clock className="h-7 w-7" />
             </div>
             <h3 className="mb-2 text-xl font-semibold">Lifetime Support</h3>
@@ -167,7 +167,7 @@ const HomePageContent = () => {
               href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=M_TNRAGfzBX-zE24-Thw0g"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors hover:text-primary/80"
+              className="text-sm text-primary font-medium hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
               Read full review on Yelp
               <ExternalLink className="h-3 w-3" />
@@ -193,7 +193,7 @@ const HomePageContent = () => {
               href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=pxPaa95rRxhMGY6hA-RvSg"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors hover:text-primary/80"
+              className="text-sm text-primary font-medium hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
               Read full review on Yelp
               <ExternalLink className="h-3 w-3" />
@@ -219,7 +219,7 @@ const HomePageContent = () => {
               href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=G4IcJ4hiRtYUesgzhdHBug"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors hover:text-primary/80"
+              className="text-sm text-primary font-medium hover:text-primary/80 transition-colors inline-flex items-center gap-1"
             >
               Read full review on Yelp
               <ExternalLink className="h-3 w-3" />

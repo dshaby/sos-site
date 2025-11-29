@@ -204,7 +204,7 @@ const AboutPageContent = () => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Step 1 */}
           <div className="text-center">
-            <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-background text-primary ring-1 ring-border">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full border-2 border-primary text-primary mb-4">
               <span className="text-lg font-semibold">1</span>
             </div>
             <h3 className="mb-3 text-xl font-semibold text-foreground">On-Site Consultation</h3>
@@ -216,7 +216,7 @@ const AboutPageContent = () => {
 
           {/* Step 2 */}
           <div className="text-center">
-            <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-background text-primary ring-1 ring-border">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full border-2 border-primary text-primary mb-4">
               <span className="text-lg font-semibold">2</span>
             </div>
             <h3 className="mb-3 text-xl font-semibold text-foreground">Design &amp; Installation</h3>
@@ -228,7 +228,7 @@ const AboutPageContent = () => {
 
           {/* Step 3 */}
           <div className="text-center">
-            <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-background text-primary ring-1 ring-border">
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full border-2 border-primary text-primary mb-4">
               <span className="text-lg font-semibold">3</span>
             </div>
             <h3 className="mb-3 text-xl font-semibold text-foreground">

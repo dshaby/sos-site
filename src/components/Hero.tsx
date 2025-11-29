@@ -37,7 +37,7 @@ const Hero = ({
             priority
           />
           {overlay && (
-            <div className="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/80 to-primary/90" />
+            <div className="absolute inset-0 bg-gradient-to-b from-primary/60 via-primary/75 to-primary/85" />
           )}
         </>
       )}
