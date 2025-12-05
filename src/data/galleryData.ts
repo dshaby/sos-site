@@ -71,21 +71,24 @@ const tvInstallationExtras: GalleryImage[] = [
 ];
 
 const homeTheaterHighlights: GalleryImage[] = [
-  { id: "ht-1", src: "/gallery/home-theater/ht-1.jpg", alt: "Dedicated home theater with large projection screen and tiered seating" },
-  { id: "ht-2", src: "/gallery/home-theater/ht-2.jpg", alt: "Dolby Atmos speaker installation with ceiling-mounted speakers" },
-  { id: "ht-3", src: "/gallery/home-theater/ht-3.jpg", alt: "Home theater room with acoustic panels and surround sound" },
-  { id: "ht-4", src: "/gallery/home-theater/ht-4.jpg", alt: "4K laser projector installation in media room" },
-  { id: "ht-5", src: "/gallery/home-theater/ht-5.jpg", alt: "Theater room with reclining seats and ambient lighting" },
-  { id: "ht-6", src: "/gallery/home-theater/ht-6.jpg", alt: "In-wall and in-ceiling speaker installation for surround sound" },
-  { id: "ht-7", src: "/gallery/home-theater/ht-7.jpg", alt: "Home theater equipment rack with AV receiver and amplifiers" },
-  { id: "ht-8", src: "/gallery/home-theater/ht-8.jpg", alt: "120-inch screen installation in basement theater room" },
+  { id: "ht-1", src: "/gallery/home-theater/highlight-1.jpg", alt: "Luxury home theater with leather recliners, floor-standing speakers, and framed projection screen with warm ambient lighting" },
+  { id: "ht-2", src: "/gallery/home-theater/highlight-2.jpg", alt: "Elegant dedicated theater room with custom millwork, projection screen, and plush leather seating" },
+  { id: "ht-3", src: "/gallery/home-theater/highlight-3.jpg", alt: "Multi-row leather theater seating with wall sconces and damask wallpaper in upscale media room" },
+  { id: "ht-4", src: "/gallery/home-theater/highlight-4.jpg", alt: "Commercial-style private theater with tiered stadium seating, projection screen, and theater curtains" },
+  { id: "ht-5", src: "/gallery/home-theater/highlight-5.jpg", alt: "Rustic home theater with projection screen, media cabinet, and floor-standing speakers with decorative sconces" },
+  { id: "ht-6", src: "/gallery/home-theater/highlight-6.jpg", alt: "Modern living room with ultra-short-throw laser projector displaying 4K content on large screen" },
+  { id: "ht-7", src: "/gallery/home-theater/highlight-7.jpg", alt: "Bright media room with ceiling-mounted projector, motorized screen, and in-ceiling surround speakers" },
+  { id: "ht-8", src: "/gallery/home-theater/highlight-8.jpg", alt: "Contemporary open living space with TV on glass-enclosed fireplace and in-wall speakers" },
 ];
 
 const homeTheaterExtras: GalleryImage[] = [
-  { id: "ht-extra-1", src: "/gallery/home-theater/ht-extra-1.jpg", alt: "Subwoofer placement in home theater" },
-  { id: "ht-extra-2", src: "/gallery/home-theater/ht-extra-2.jpg", alt: "Projector ceiling mount installation" },
-  { id: "ht-extra-3", src: "/gallery/home-theater/ht-extra-3.jpg", alt: "Acoustic treatment installation process" },
-  { id: "ht-extra-4", src: "/gallery/home-theater/ht-extra-4.jpg", alt: "Atmos height channel speaker installation" },
+  { id: "ht-extra-1", src: "/gallery/home-theater/extra-1.jpg", alt: "Commercial screening room with purple accent wall, ceiling-mounted projector, and stadium seating" },
+  { id: "ht-extra-2", src: "/gallery/home-theater/extra-2.jpg", alt: "Modern living room with TV mounted above fireplace and in-ceiling distributed audio" },
+  { id: "ht-extra-3", src: "/gallery/home-theater/extra-3.jpg", alt: "Home theater with motorized projection screen, custom cabinetry, and professional equipment rack" },
+  { id: "ht-extra-4", src: "/gallery/home-theater/extra-4.jpg", alt: "Wall-mounted TV with high-end tower speakers and AV equipment in modern media room" },
+  { id: "ht-extra-5", src: "/gallery/home-theater/extra-5.jpg", alt: "In-ceiling speaker prewire installation with Dolby Atmos layout during construction" },
+  { id: "ht-extra-6", src: "/gallery/home-theater/extra-6.jpg", alt: "Installation team assembling large projection screen frame in dedicated theater room" },
+  { id: "ht-extra-7", src: "/gallery/home-theater/extra-7.jpg", alt: "Rear projector mounting platform with structured wiring during theater room build" },
 ];
 
 const prewireHighlights: GalleryImage[] = [
@@ -185,9 +188,10 @@ export const gallerySections: GallerySection[] = [
   },
   {
     id: "home-theater",
-    label: "Home Theater",
+    label: "Home Theater & Surround Sound",
     shortTitle: "Theater",
-    description: "Dedicated rooms with large screens, projectors, Dolby Atmos, and tiered seating.",
+    description:
+      "Dedicated rooms with large screens, projectors, Dolby Atmos, and tiered seating.",
     highlightImages: homeTheaterHighlights,
     allImages: [...homeTheaterHighlights, ...homeTheaterExtras],
   },
@@ -195,7 +199,8 @@ export const gallerySections: GallerySection[] = [
     id: "prewire-retrofit",
     label: "Prewire & Retrofit",
     shortTitle: "Prewire",
-    description: "In-wall wiring, retrofits, and construction-phase work that sets up your system for success.",
+    description:
+      "In-wall wiring, retrofits, and construction-phase work that sets up your system for success.",
     highlightImages: prewireHighlights,
     allImages: [...prewireHighlights, ...prewireExtras],
   },
@@ -203,7 +208,8 @@ export const gallerySections: GallerySection[] = [
     id: "outdoor-entertainment",
     label: "Outdoor Entertainment",
     shortTitle: "Outdoor",
-    description: "Patios, pools, and backyards with hidden speakers and weatherproof TVs.",
+    description:
+      "Patios, pools, and backyards with hidden speakers and weatherproof TVs.",
     highlightImages: outdoorHighlights,
     allImages: [...outdoorHighlights, ...outdoorExtras],
   },
@@ -211,7 +217,8 @@ export const gallerySections: GallerySection[] = [
     id: "security-cameras",
     label: "Security Cameras",
     shortTitle: "Security",
-    description: "Discreet and visible camera installations, DVR/NVR setups, and monitoring.",
+    description:
+      "Discreet and visible camera installations, DVR/NVR setups, and monitoring.",
     highlightImages: securityHighlights,
     allImages: [...securityHighlights, ...securityExtras],
   },
@@ -219,7 +226,8 @@ export const gallerySections: GallerySection[] = [
     id: "network-installations",
     label: "Network Installations",
     shortTitle: "Network",
-    description: "Rack wiring, network equipment, and whole-home Wi-Fi coverage.",
+    description:
+      "Rack wiring, network equipment, and whole-home Wi-Fi coverage.",
     highlightImages: networkHighlights,
     allImages: [...networkHighlights, ...networkExtras],
   },
@@ -227,9 +235,9 @@ export const gallerySections: GallerySection[] = [
     id: "commercial-projects",
     label: "Commercial Projects",
     shortTitle: "Commercial",
-    description: "Conference rooms, lobbies, gyms, theaters, and other commercial spaces.",
+    description:
+      "Conference rooms, lobbies, gyms, theaters, and other commercial spaces.",
     highlightImages: commercialHighlights,
     allImages: [...commercialHighlights, ...commercialExtras],
   },
 ];
-
