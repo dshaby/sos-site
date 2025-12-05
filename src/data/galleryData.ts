@@ -92,19 +92,57 @@ const homeTheaterExtras: GalleryImage[] = [
 ];
 
 const prewireHighlights: GalleryImage[] = [
-  { id: "pw-1", src: "/gallery/prewire-retrofit/pw-1.jpg", alt: "In-wall cable runs during new construction phase" },
-  { id: "pw-2", src: "/gallery/prewire-retrofit/pw-2.jpg", alt: "Low-voltage wiring panel installation" },
-  { id: "pw-3", src: "/gallery/prewire-retrofit/pw-3.jpg", alt: "Speaker wire and HDMI prewire in walls" },
-  { id: "pw-4", src: "/gallery/prewire-retrofit/pw-4.jpg", alt: "Retrofit cable fishing through finished walls" },
-  { id: "pw-5", src: "/gallery/prewire-retrofit/pw-5.jpg", alt: "Structured wiring closet organization" },
-  { id: "pw-6", src: "/gallery/prewire-retrofit/pw-6.jpg", alt: "In-ceiling prewire for surround speakers" },
+  {
+    id: "pw-1",
+    src: "/gallery/prewire-retrofit/pw-1.jpg",
+    alt: "Low-voltage technician smiling while routing a bundle of black cables through unfinished framing",
+  },
+  {
+    id: "pw-2",
+    src: "/gallery/prewire-retrofit/pw-2.jpg",
+    alt: "Technician organizing a large bundle of white network cables along the wall into a structured rack",
+  },
+  {
+    id: "pw-3",
+    src: "/gallery/prewire-retrofit/pw-3.jpg",
+    alt: "Technician configuring a home network rack using a laptop on a rolling AV cabinet",
+  },
+  {
+    id: "pw-4",
+    src: "/gallery/prewire-retrofit/pw-4.jpg",
+    alt: "Structured coax distribution panel with neatly dressed white cables and splitters inside a wall enclosure",
+    orientation: "portrait",
+  },
+  {
+    id: "pw-5",
+    src: "/gallery/prewire-retrofit/pw-5.jpg",
+    alt: "New construction framing with low-voltage panel and vertical bundle of blue, black, and white cables",
+    orientation: "portrait",
+  },
+  {
+    id: "pw-6",
+    src: "/gallery/prewire-retrofit/pw-6.jpg",
+    alt: "Exterior soffit prewire with round junction boxes and loops of black cable ready for cameras or lights",
+  },
+  {
+    id: "pw-7",
+    src: "/gallery/prewire-retrofit/pw-7.jpg",
+    alt: "Long framed room with ceiling cans and electrical boxes prewired before drywall installation",
+  },
 ];
 
 const prewireExtras: GalleryImage[] = [
-  { id: "pw-extra-1", src: "/gallery/prewire-retrofit/pw-extra-1.jpg", alt: "Conduit installation for future upgrades" },
-  { id: "pw-extra-2", src: "/gallery/prewire-retrofit/pw-extra-2.jpg", alt: "Network and AV cable termination" },
-  { id: "pw-extra-3", src: "/gallery/prewire-retrofit/pw-extra-3.jpg", alt: "Wall plate installation for clean connections" },
-  { id: "pw-extra-4", src: "/gallery/prewire-retrofit/pw-extra-4.jpg", alt: "Cable management in attic space" },
+  {
+    id: "pw-extra-1",
+    src: "/gallery/prewire-retrofit/pw-extra-1.jpg",
+    alt: "Tall vertical bundle of low-voltage cables running from floor to ceiling through wall framing",
+    orientation: "portrait",
+  },
+  {
+    id: "pw-extra-2",
+    src: "/gallery/prewire-retrofit/pw-extra-2.jpg",
+    alt: "Exterior view of home addition with extensive electrical and low-voltage rough-in wiring visible in framing",
+  },
 ];
 
 const outdoorHighlights: GalleryImage[] = [
