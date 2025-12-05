@@ -29,7 +29,7 @@ const HomePageContent = () => {
           className="h-auto px-8 py-6 text-lg bg-background/10 text-primary-foreground border-primary-foreground/20 backdrop-blur-sm hover:bg-background/20"
           asChild
         >
-          <Link href="#gallery">View Our Work</Link>
+          <Link href="/gallery">View Our Work</Link>
         </Button>
       </Hero>
 
@@ -49,7 +49,9 @@ const HomePageContent = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full border-2 border-primary text-primary mb-4">
               <Shield className="h-7 w-7" />
             </div>
-            <h3 className="mb-2 text-xl font-semibold">Licensed &amp; Bonded</h3>
+            <h3 className="mb-2 text-xl font-semibold">
+              Licensed &amp; Bonded
+            </h3>
             <p className="text-muted-foreground">
               Fully licensed contractor with comprehensive insurance
             </p>
@@ -70,40 +72,39 @@ const HomePageContent = () => {
       <Section
         title="Premium Installation Services"
         subtitle="From dedicated home theaters to whole-home automation, we bring your vision to life"
-        id="gallery"
       >
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {[
             {
               title: "Home Theater Installation",
               description:
-                "Custom cinema rooms with Dolby Atmos, premium projectors, and acoustic treatment"
+                "Custom cinema rooms with Dolby Atmos, premium projectors, and acoustic treatment",
             },
             {
               title: "TV Installation & Mounting",
               description:
-                "Professional wall mounting with concealed wiring and optimal viewing angles"
+                "Professional wall mounting with concealed wiring and optimal viewing angles",
             },
             {
               title: "Smart Home Automation",
               description:
-                "Integrated lighting, climate, security, and entertainment control systems"
+                "Integrated lighting, climate, security, and entertainment control systems",
             },
             {
               title: "Audio Systems",
               description:
-                "Whole-home audio, soundbars, and premium speaker installations"
+                "Whole-home audio, soundbars, and premium speaker installations",
             },
             {
               title: "Security Cameras",
               description:
-                "Professional surveillance systems with remote monitoring capabilities"
+                "Professional surveillance systems with remote monitoring capabilities",
             },
             {
               title: "Network & WiFi",
               description:
-                "Enterprise-grade networking for seamless connectivity throughout your home"
-            }
+                "Enterprise-grade networking for seamless connectivity throughout your home",
+            },
           ].map((service, index) => (
             <div
               key={index}
@@ -132,7 +133,9 @@ const HomePageContent = () => {
             <span className="text-5xl font-bold text-foreground">4.8</span>
             <Star className="h-8 w-8 fill-gold text-gold" />
           </div>
-          <p className="mb-6 text-muted-foreground">Based on 100+ Yelp reviews</p>
+          <p className="mb-6 text-muted-foreground">
+            Based on 100+ Yelp reviews
+          </p>
           <Button variant="outline" size="lg" asChild>
             <a
               href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?osq=SOS+standing+ovation+surround+sound&override_cta=Request+quote+%26+availability"
@@ -159,9 +162,10 @@ const HomePageContent = () => {
               </div>
             </div>
             <p className="mb-4 text-muted-foreground">
-              Ron installed our 65-inch 2021 Samsung Frame TV. Professional, careful, and extremely
-              clean installation. He walked us through options, explained everything clearly, and
-              made the whole process easy.
+              Ron installed our 65-inch 2021 Samsung Frame TV. Professional,
+              careful, and extremely clean installation. He walked us through
+              options, explained everything clearly, and made the whole process
+              easy.
             </p>
             <a
               href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=M_TNRAGfzBX-zE24-Thw0g"
@@ -185,9 +189,10 @@ const HomePageContent = () => {
               </div>
             </div>
             <p className="mb-4 text-muted-foreground">
-              I had quotes from others, but Ron&apos;s honesty and expertise stood out. The
-              installation was precise, cables were hidden perfectly, and the work was completed
-              faster than expected. Highly recommended.
+              I had quotes from others, but Ron&apos;s honesty and expertise
+              stood out. The installation was precise, cables were hidden
+              perfectly, and the work was completed faster than expected. Highly
+              recommended.
             </p>
             <a
               href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=pxPaa95rRxhMGY6hA-RvSg"
@@ -211,9 +216,9 @@ const HomePageContent = () => {
               </div>
             </div>
             <p className="mb-4 text-muted-foreground">
-              Ron arrived prepared with all tools needed. Everything was measured and leveled
-              perfectly. He and his assistant cleaned up thoroughly afterward. Incredible service
-              and craftsmanship.
+              Ron arrived prepared with all tools needed. Everything was
+              measured and leveled perfectly. He and his assistant cleaned up
+              thoroughly afterward. Incredible service and craftsmanship.
             </p>
             <a
               href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood?hrid=G4IcJ4hiRtYUesgzhdHBug"
@@ -232,7 +237,8 @@ const HomePageContent = () => {
           <div className="grid grid-cols-1 gap-6 text-center md:grid-cols-3">
             <div className="rounded-lg bg-muted/30 p-4">
               <p className="text-sm text-muted-foreground">
-                Licensed, insured, and bonded low-voltage contractor in California
+                Licensed, insured, and bonded low-voltage contractor in
+                California
               </p>
             </div>
             <div className="rounded-lg bg-muted/30 p-4">
@@ -256,8 +262,8 @@ const HomePageContent = () => {
             Ready to Transform Your Home?
           </h2>
           <p className="mb-8 text-xl text-primary-foreground/90">
-            Schedule your free on-site consultation today. We&apos;ll assess your space, 
-            discuss your vision, and provide a detailed proposal.
+            Schedule your free on-site consultation today. We&apos;ll assess
+            your space, discuss your vision, and provide a detailed proposal.
           </p>
           <div className="flex flex-col justify-center gap-4 sm:flex-row">
             <Button

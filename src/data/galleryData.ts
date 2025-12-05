@@ -1,0 +1,235 @@
+/**
+ * Gallery Data Configuration
+ *
+ * IMPORTANT: Replace placeholder image paths with your actual uploaded images.
+ * - highlightImages: 8-16 curated "best shots" shown on the main gallery page
+ * - allImages: Full collection including highlights + additional photos for the lightbox
+ *
+ * Image paths are relative to the /public folder.
+ * Example: "/gallery/tv-installation/highlight-1.jpg" maps to public/gallery/tv-installation/highlight-1.jpg
+ */
+
+export type GalleryImage = {
+  id: string;
+  src: string;
+  alt: string;
+  orientation?: "landscape" | "portrait";
+};
+
+export type GallerySectionId =
+  | "tv-installation"
+  | "home-theater"
+  | "prewire-retrofit"
+  | "outdoor-entertainment"
+  | "security-cameras"
+  | "network-installations"
+  | "commercial-projects";
+
+export type GallerySection = {
+  id: GallerySectionId;
+  label: string;
+  shortTitle: string;
+  description: string;
+  highlightImages: GalleryImage[];
+  allImages: GalleryImage[];
+};
+
+const tvInstallationHighlights: GalleryImage[] = [
+  { id: "tv-1", src: "/gallery/tv-installation/highlight-1.jpg", alt: "Large flat-screen TV mounted on blue accent wall in elegant living room with hardwood floors" },
+  { id: "tv-2", src: "/gallery/tv-installation/highlight-2.jpg", alt: "TV mounted above stone fireplace with streaming apps displayed and surround speakers" },
+  { id: "tv-3", src: "/gallery/tv-installation/highlight-3.jpg", alt: "Curved Samsung TV corner-mounted in bright room with soundbar and streaming interface" },
+  { id: "tv-4", src: "/gallery/tv-installation/highlight-4.jpg", alt: "TV on modern fireplace mantel in upscale living room with mirrored walls and art" },
+  { id: "tv-5", src: "/gallery/tv-installation/highlight-5.jpg", alt: "Large TV above white stone fireplace in contemporary living room with in-ceiling speakers" },
+  { id: "tv-6", src: "/gallery/tv-installation/highlight-6.jpg", alt: "Motorized TV lift at foot of bed showing rear mounting mechanism" },
+  { id: "tv-7", src: "/gallery/tv-installation/highlight-7.jpg", alt: "Wall-mounted TV with soundbar on entertainment console in family room" },
+  { id: "tv-8", src: "/gallery/tv-installation/highlight-8.jpg", alt: "TV above traditional fireplace with in-wall speakers and soundbar on mantel" },
+  { id: "tv-9", src: "/gallery/tv-installation/highlight-9.jpg", alt: "TV in custom built-in cabinet in rustic room with vaulted wood ceiling" },
+  { id: "tv-10", src: "/gallery/tv-installation/highlight-10.jpg", alt: "Outdoor TV on motorized lift in wooden cabinet on patio" },
+  { id: "tv-11", src: "/gallery/tv-installation/highlight-11.jpg", alt: "Large TV mounted on marble fireplace with streaming apps and soundbar in elegant living room" },
+  { id: "tv-12", src: "/gallery/tv-installation/highlight-12.jpg", alt: "Curved TV mounted above white herringbone-tile fireplace displaying streaming apps in cozy living room" },
+  { id: "tv-13", src: "/gallery/tv-installation/highlight-13.jpg", alt: "TV mounted on natural stone fireplace in modern living room with clean cable concealment" },
+  { id: "tv-14", src: "/gallery/tv-installation/highlight-14.jpg", alt: "Large TV extended on articulating mount in front of natural stone fireplace, demonstrating flexible viewing angles" },
+  { id: "tv-15", src: "/gallery/tv-installation/highlight-15.jpg", alt: "Small TV mounted in bright kitchen above built-in oven with in-ceiling speakers" },
+];
+
+const tvInstallationExtras: GalleryImage[] = [
+  { id: "tv-extra-1", src: "/gallery/tv-installation/extra-1.jpg", alt: "TV mounted above beige stone fireplace in classic living room with piano and family photos" },
+  { id: "tv-extra-2", src: "/gallery/tv-installation/extra-2.jpg", alt: "Bedroom TV mounted above light wood dresser beside frosted glass door and wardrobe" },
+  { id: "tv-extra-3", src: "/gallery/tv-installation/extra-3.jpg", alt: "Alternate view of bedroom with wall-mounted TV above dresser and sliding closet doors" },
+  { id: "tv-extra-4", src: "/gallery/tv-installation/extra-4.jpg", alt: "Large TV mounted above long media console in modern open-concept living and dining room" },
+  { id: "tv-extra-5", src: "/gallery/tv-installation/extra-5.jpg", alt: "Art-frame style TV displaying cityscape above sleek dark-tile fireplace with bar cart nearby" },
+  { id: "tv-extra-6", src: "/gallery/tv-installation/extra-6.jpg", alt: "Flat-screen TV mounted above brick fireplace with decorative mantel and built-in shelving" },
+  { id: "tv-extra-7", src: "/gallery/tv-installation/extra-7.jpg", alt: "TV framed as artwork displaying vibrant floral painting on neutral wall" },
+  { id: "tv-extra-8", src: "/gallery/tv-installation/extra-8.jpg", alt: "Slim TV mounted on light wall displaying bright ocean cityscape scene" },
+  { id: "tv-extra-9", src: "/gallery/tv-installation/extra-9.jpg", alt: "Corner-mounted TV with floating shelf in bright room overlooking garden and patio" },
+  { id: "tv-extra-10", src: "/gallery/tv-installation/extra-10.jpg", alt: "Dining room with wall-mounted TV above long wooden table under recessed ceiling lights" },
+  { id: "tv-extra-11", src: "/gallery/tv-installation/extra-11.jpg", alt: "Articulating TV mount extended and angled toward bed in modern primary bedroom" },
+  { id: "tv-extra-12", src: "/gallery/tv-installation/extra-12.jpg", alt: "TV mounted on recessed wall panel with blue LED backlighting in modern living room" },
+  { id: "tv-extra-13", src: "/gallery/tv-installation/extra-13.jpg", alt: "TV mounted above white fireplace mantel in bright neutral-toned living room" },
+  { id: "tv-extra-14", src: "/gallery/tv-installation/extra-14.jpg", alt: "Wall-mounted TV integrated into modern tiled bedroom media wall" },
+  { id: "tv-extra-15", src: "/gallery/tv-installation/extra-15.jpg", alt: "Small corner-mounted TV in commercial waiting area with stone accent wall" },
+];
+
+const homeTheaterHighlights: GalleryImage[] = [
+  { id: "ht-1", src: "/gallery/home-theater/ht-1.jpg", alt: "Dedicated home theater with large projection screen and tiered seating" },
+  { id: "ht-2", src: "/gallery/home-theater/ht-2.jpg", alt: "Dolby Atmos speaker installation with ceiling-mounted speakers" },
+  { id: "ht-3", src: "/gallery/home-theater/ht-3.jpg", alt: "Home theater room with acoustic panels and surround sound" },
+  { id: "ht-4", src: "/gallery/home-theater/ht-4.jpg", alt: "4K laser projector installation in media room" },
+  { id: "ht-5", src: "/gallery/home-theater/ht-5.jpg", alt: "Theater room with reclining seats and ambient lighting" },
+  { id: "ht-6", src: "/gallery/home-theater/ht-6.jpg", alt: "In-wall and in-ceiling speaker installation for surround sound" },
+  { id: "ht-7", src: "/gallery/home-theater/ht-7.jpg", alt: "Home theater equipment rack with AV receiver and amplifiers" },
+  { id: "ht-8", src: "/gallery/home-theater/ht-8.jpg", alt: "120-inch screen installation in basement theater room" },
+];
+
+const homeTheaterExtras: GalleryImage[] = [
+  { id: "ht-extra-1", src: "/gallery/home-theater/ht-extra-1.jpg", alt: "Subwoofer placement in home theater" },
+  { id: "ht-extra-2", src: "/gallery/home-theater/ht-extra-2.jpg", alt: "Projector ceiling mount installation" },
+  { id: "ht-extra-3", src: "/gallery/home-theater/ht-extra-3.jpg", alt: "Acoustic treatment installation process" },
+  { id: "ht-extra-4", src: "/gallery/home-theater/ht-extra-4.jpg", alt: "Atmos height channel speaker installation" },
+];
+
+const prewireHighlights: GalleryImage[] = [
+  { id: "pw-1", src: "/gallery/prewire-retrofit/pw-1.jpg", alt: "In-wall cable runs during new construction phase" },
+  { id: "pw-2", src: "/gallery/prewire-retrofit/pw-2.jpg", alt: "Low-voltage wiring panel installation" },
+  { id: "pw-3", src: "/gallery/prewire-retrofit/pw-3.jpg", alt: "Speaker wire and HDMI prewire in walls" },
+  { id: "pw-4", src: "/gallery/prewire-retrofit/pw-4.jpg", alt: "Retrofit cable fishing through finished walls" },
+  { id: "pw-5", src: "/gallery/prewire-retrofit/pw-5.jpg", alt: "Structured wiring closet organization" },
+  { id: "pw-6", src: "/gallery/prewire-retrofit/pw-6.jpg", alt: "In-ceiling prewire for surround speakers" },
+];
+
+const prewireExtras: GalleryImage[] = [
+  { id: "pw-extra-1", src: "/gallery/prewire-retrofit/pw-extra-1.jpg", alt: "Conduit installation for future upgrades" },
+  { id: "pw-extra-2", src: "/gallery/prewire-retrofit/pw-extra-2.jpg", alt: "Network and AV cable termination" },
+  { id: "pw-extra-3", src: "/gallery/prewire-retrofit/pw-extra-3.jpg", alt: "Wall plate installation for clean connections" },
+  { id: "pw-extra-4", src: "/gallery/prewire-retrofit/pw-extra-4.jpg", alt: "Cable management in attic space" },
+];
+
+const outdoorHighlights: GalleryImage[] = [
+  { id: "out-1", src: "/gallery/outdoor-entertainment/out-1.jpg", alt: "Outdoor TV installation on patio with weatherproof enclosure" },
+  { id: "out-2", src: "/gallery/outdoor-entertainment/out-2.jpg", alt: "Rock speakers hidden in landscaping by pool" },
+  { id: "out-3", src: "/gallery/outdoor-entertainment/out-3.jpg", alt: "Backyard audio system with distributed speakers" },
+  { id: "out-4", src: "/gallery/outdoor-entertainment/out-4.jpg", alt: "Outdoor projector setup for backyard movie nights" },
+  { id: "out-5", src: "/gallery/outdoor-entertainment/out-5.jpg", alt: "Covered patio with ceiling-mounted speakers" },
+  { id: "out-6", src: "/gallery/outdoor-entertainment/out-6.jpg", alt: "Pool area with weatherproof TV and sound system" },
+  { id: "out-7", src: "/gallery/outdoor-entertainment/out-7.jpg", alt: "Outdoor bar area with TV and speakers" },
+  { id: "out-8", src: "/gallery/outdoor-entertainment/out-8.jpg", alt: "Garden speakers blending with outdoor decor" },
+];
+
+const outdoorExtras: GalleryImage[] = [
+  { id: "out-extra-1", src: "/gallery/outdoor-entertainment/out-extra-1.jpg", alt: "Weatherproof TV enclosure installation" },
+  { id: "out-extra-2", src: "/gallery/outdoor-entertainment/out-extra-2.jpg", alt: "Outdoor subwoofer installation" },
+  { id: "out-extra-3", src: "/gallery/outdoor-entertainment/out-extra-3.jpg", alt: "Pergola with integrated speakers" },
+  { id: "out-extra-4", src: "/gallery/outdoor-entertainment/out-extra-4.jpg", alt: "Outdoor amplifier in weather-resistant box" },
+];
+
+const securityHighlights: GalleryImage[] = [
+  { id: "sec-1", src: "/gallery/security-cameras/sec-1.jpg", alt: "Security camera installed at front entrance" },
+  { id: "sec-2", src: "/gallery/security-cameras/sec-2.jpg", alt: "DVR/NVR system setup in equipment closet" },
+  { id: "sec-3", src: "/gallery/security-cameras/sec-3.jpg", alt: "Driveway camera with wide-angle coverage" },
+  { id: "sec-4", src: "/gallery/security-cameras/sec-4.jpg", alt: "Indoor camera installation for monitoring" },
+  { id: "sec-5", src: "/gallery/security-cameras/sec-5.jpg", alt: "Multi-camera system viewing on TV display" },
+  { id: "sec-6", src: "/gallery/security-cameras/sec-6.jpg", alt: "Discreet camera placement on exterior" },
+];
+
+const securityExtras: GalleryImage[] = [
+  { id: "sec-extra-1", src: "/gallery/security-cameras/sec-extra-1.jpg", alt: "POE camera installation with clean wiring" },
+  { id: "sec-extra-2", src: "/gallery/security-cameras/sec-extra-2.jpg", alt: "Security system mobile app demonstration" },
+  { id: "sec-extra-3", src: "/gallery/security-cameras/sec-extra-3.jpg", alt: "Camera coverage of backyard area" },
+  { id: "sec-extra-4", src: "/gallery/security-cameras/sec-extra-4.jpg", alt: "Night vision camera test footage" },
+];
+
+const networkHighlights: GalleryImage[] = [
+  { id: "net-1", src: "/gallery/network-installations/net-1.jpg", alt: "Network equipment rack with patch panels and switches" },
+  { id: "net-2", src: "/gallery/network-installations/net-2.jpg", alt: "Wi-Fi access point installation for whole-home coverage" },
+  { id: "net-3", src: "/gallery/network-installations/net-3.jpg", alt: "Structured network cabling in server closet" },
+  { id: "net-4", src: "/gallery/network-installations/net-4.jpg", alt: "Router and modem setup with clean cable management" },
+  { id: "net-5", src: "/gallery/network-installations/net-5.jpg", alt: "Ceiling-mounted wireless access point" },
+  { id: "net-6", src: "/gallery/network-installations/net-6.jpg", alt: "Ethernet wall plate installations throughout home" },
+  { id: "net-7", src: "/gallery/network-installations/net-7.jpg", alt: "Mesh Wi-Fi system configuration" },
+  { id: "net-8", src: "/gallery/network-installations/net-8.jpg", alt: "Network switch and UPS battery backup installation" },
+];
+
+const networkExtras: GalleryImage[] = [
+  { id: "net-extra-1", src: "/gallery/network-installations/net-extra-1.jpg", alt: "Cat6 cable termination at patch panel" },
+  { id: "net-extra-2", src: "/gallery/network-installations/net-extra-2.jpg", alt: "Wi-Fi signal testing and optimization" },
+  { id: "net-extra-3", src: "/gallery/network-installations/net-extra-3.jpg", alt: "Fiber optic connection installation" },
+  { id: "net-extra-4", src: "/gallery/network-installations/net-extra-4.jpg", alt: "Outdoor access point for extended coverage" },
+];
+
+const commercialHighlights: GalleryImage[] = [
+  { id: "com-1", src: "/gallery/commercial-projects/com-1.jpg", alt: "Conference room with large display and video conferencing" },
+  { id: "com-2", src: "/gallery/commercial-projects/com-2.jpg", alt: "Lobby TV installation with digital signage" },
+  { id: "com-3", src: "/gallery/commercial-projects/com-3.jpg", alt: "Gym with multiple TVs and distributed audio" },
+  { id: "com-4", src: "/gallery/commercial-projects/com-4.jpg", alt: "Restaurant bar area with sports TVs" },
+  { id: "com-5", src: "/gallery/commercial-projects/com-5.jpg", alt: "Office boardroom AV system installation" },
+  { id: "com-6", src: "/gallery/commercial-projects/com-6.jpg", alt: "Private theater room in commercial space" },
+  { id: "com-7", src: "/gallery/commercial-projects/com-7.jpg", alt: "Medical office waiting room TV installation" },
+  { id: "com-8", src: "/gallery/commercial-projects/com-8.jpg", alt: "Video wall installation in retail space" },
+];
+
+const commercialExtras: GalleryImage[] = [
+  { id: "com-extra-1", src: "/gallery/commercial-projects/com-extra-1.jpg", alt: "Conference room control system setup" },
+  { id: "com-extra-2", src: "/gallery/commercial-projects/com-extra-2.jpg", alt: "Commercial audio system rack" },
+  { id: "com-extra-3", src: "/gallery/commercial-projects/com-extra-3.jpg", alt: "Digital menu board installation" },
+  { id: "com-extra-4", src: "/gallery/commercial-projects/com-extra-4.jpg", alt: "Training room presentation system" },
+];
+
+export const gallerySections: GallerySection[] = [
+  {
+    id: "tv-installation",
+    label: "TV Installation",
+    shortTitle: "TV",
+    description: "Fireplace installs, custom cabinetry, bedrooms, and more.",
+    highlightImages: tvInstallationHighlights,
+    allImages: [...tvInstallationHighlights, ...tvInstallationExtras],
+  },
+  {
+    id: "home-theater",
+    label: "Home Theater",
+    shortTitle: "Theater",
+    description: "Dedicated rooms with large screens, projectors, Dolby Atmos, and tiered seating.",
+    highlightImages: homeTheaterHighlights,
+    allImages: [...homeTheaterHighlights, ...homeTheaterExtras],
+  },
+  {
+    id: "prewire-retrofit",
+    label: "Prewire & Retrofit",
+    shortTitle: "Prewire",
+    description: "In-wall wiring, retrofits, and construction-phase work that sets up your system for success.",
+    highlightImages: prewireHighlights,
+    allImages: [...prewireHighlights, ...prewireExtras],
+  },
+  {
+    id: "outdoor-entertainment",
+    label: "Outdoor Entertainment",
+    shortTitle: "Outdoor",
+    description: "Patios, pools, and backyards with hidden speakers and weatherproof TVs.",
+    highlightImages: outdoorHighlights,
+    allImages: [...outdoorHighlights, ...outdoorExtras],
+  },
+  {
+    id: "security-cameras",
+    label: "Security Cameras",
+    shortTitle: "Security",
+    description: "Discreet and visible camera installations, DVR/NVR setups, and monitoring.",
+    highlightImages: securityHighlights,
+    allImages: [...securityHighlights, ...securityExtras],
+  },
+  {
+    id: "network-installations",
+    label: "Network Installations",
+    shortTitle: "Network",
+    description: "Rack wiring, network equipment, and whole-home Wi-Fi coverage.",
+    highlightImages: networkHighlights,
+    allImages: [...networkHighlights, ...networkExtras],
+  },
+  {
+    id: "commercial-projects",
+    label: "Commercial Projects",
+    shortTitle: "Commercial",
+    description: "Conference rooms, lobbies, gyms, theaters, and other commercial spaces.",
+    highlightImages: commercialHighlights,
+    allImages: [...commercialHighlights, ...commercialExtras],
+  },
+];
+
