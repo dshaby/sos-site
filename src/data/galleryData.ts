@@ -146,21 +146,29 @@ const prewireExtras: GalleryImage[] = [
 ];
 
 const outdoorHighlights: GalleryImage[] = [
-  { id: "out-1", src: "/gallery/outdoor-entertainment/out-1.jpg", alt: "Outdoor TV installation on patio with weatherproof enclosure" },
-  { id: "out-2", src: "/gallery/outdoor-entertainment/out-2.jpg", alt: "Rock speakers hidden in landscaping by pool" },
-  { id: "out-3", src: "/gallery/outdoor-entertainment/out-3.jpg", alt: "Backyard audio system with distributed speakers" },
-  { id: "out-4", src: "/gallery/outdoor-entertainment/out-4.jpg", alt: "Outdoor projector setup for backyard movie nights" },
-  { id: "out-5", src: "/gallery/outdoor-entertainment/out-5.jpg", alt: "Covered patio with ceiling-mounted speakers" },
-  { id: "out-6", src: "/gallery/outdoor-entertainment/out-6.jpg", alt: "Pool area with weatherproof TV and sound system" },
-  { id: "out-7", src: "/gallery/outdoor-entertainment/out-7.jpg", alt: "Outdoor bar area with TV and speakers" },
-  { id: "out-8", src: "/gallery/outdoor-entertainment/out-8.jpg", alt: "Garden speakers blending with outdoor decor" },
+  { id: "out-1", src: "/gallery/outdoor-entertainment/highlight-1.jpg", alt: "Large outdoor TV mounted under covered patio with flanking speakers, streaming live sports on a sunny day" },
+  { id: "out-2", src: "/gallery/outdoor-entertainment/highlight-2.jpg", alt: "Backyard landscape speakers nestled among ornamental grasses and palm trees with clean sightlines" },
+  { id: "out-3", src: "/gallery/outdoor-entertainment/highlight-3.jpg", alt: "Outdoor patio seating area with wicker furniture, landscape speakers, and weatherproof equipment enclosure" },
+  { id: "out-4", src: "/gallery/outdoor-entertainment/highlight-4.jpg", alt: "Motorized outdoor TV lift cabinet in warm wood finish rising from patio entertaining area" },
+  { id: "out-5", src: "/gallery/outdoor-entertainment/highlight-5.jpg", alt: "Professionally landscaped backyard with pathway speakers and low-voltage lighting integrated into mulch beds" },
+  { id: "out-6", src: "/gallery/outdoor-entertainment/highlight-6.jpg", alt: "Technician installing weatherproof outdoor speaker on exterior wall for whole-home audio coverage", orientation: "portrait" },
+  { id: "out-7", src: "/gallery/outdoor-entertainment/highlight-7.jpg", alt: "Modern hillside patio with retractable shade awning and discreet outdoor speakers overlooking mountain views" },
+  { id: "out-8", src: "/gallery/outdoor-entertainment/highlight-8.jpg", alt: "Contemporary backyard patio with wall-mounted outdoor speakers and covered deck during renovation" },
 ];
 
 const outdoorExtras: GalleryImage[] = [
-  { id: "out-extra-1", src: "/gallery/outdoor-entertainment/out-extra-1.jpg", alt: "Weatherproof TV enclosure installation" },
-  { id: "out-extra-2", src: "/gallery/outdoor-entertainment/out-extra-2.jpg", alt: "Outdoor subwoofer installation" },
-  { id: "out-extra-3", src: "/gallery/outdoor-entertainment/out-extra-3.jpg", alt: "Pergola with integrated speakers" },
-  { id: "out-extra-4", src: "/gallery/outdoor-entertainment/out-extra-4.jpg", alt: "Outdoor amplifier in weather-resistant box" },
+  { id: "out-extra-1", src: "/gallery/outdoor-entertainment/out-extra-1.jpg", alt: "Front yard landscaping with two rock speakers blending naturally along trimmed hedge line" },
+  { id: "out-extra-2", src: "/gallery/outdoor-entertainment/out-extra-2.jpg", alt: "Landscape bullet speaker discreetly positioned between shrubs near block wall", orientation: "portrait" },
+  { id: "out-extra-3", src: "/gallery/outdoor-entertainment/out-extra-3.jpg", alt: "Circular gravel patio feature surrounded by landscape speakers and drought-tolerant plantings" },
+  { id: "out-extra-4", src: "/gallery/outdoor-entertainment/out-extra-4.jpg", alt: "Outdoor kitchen and grill island with landscape speakers integrated in rose garden beds" },
+  { id: "out-extra-5", src: "/gallery/outdoor-entertainment/out-extra-5.jpg", alt: "Motorized outdoor TV lift cabinet in warm wood finish on brick patio near French doors" },
+  { id: "out-extra-6", src: "/gallery/outdoor-entertainment/out-extra-6.jpg", alt: "Covered outdoor living area with wall-mounted TV over fireplace and in-ceiling speakers" },
+  { id: "out-extra-7", src: "/gallery/outdoor-entertainment/out-extra-7.jpg", alt: "Weatherproof speakers mounted under eaves on exterior wall with hillside views" },
+  { id: "out-extra-8", src: "/gallery/outdoor-entertainment/out-extra-8.jpg", alt: "Traditional covered porch with column-mounted outdoor speaker near cozy seating area" },
+  { id: "out-extra-9", src: "/gallery/outdoor-entertainment/out-extra-9.jpg", alt: "Poolside patio with sliding glass doors and audio system under covered overhang" },
+  { id: "out-extra-10", src: "/gallery/outdoor-entertainment/out-extra-10.jpg", alt: "Large covered patio with family seating and wall-mounted outdoor speakers flanking French doors" },
+  { id: "out-extra-11", src: "/gallery/outdoor-entertainment/out-extra-11.jpg", alt: "Outdoor gym with natural wood ceiling, in-ceiling speakers, and wall-mounted TV for workouts" },
+  { id: "out-extra-12", src: "/gallery/outdoor-entertainment/out-extra-12.jpg", alt: "In-ground outdoor subwoofer installed in landscaped garden bed for seamless bass coverage" },
 ];
 
 const securityHighlights: GalleryImage[] = [
