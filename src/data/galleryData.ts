@@ -263,21 +263,69 @@ const networkExtras: GalleryImage[] = [
 ];
 
 const commercialHighlights: GalleryImage[] = [
-  { id: "com-1", src: "/gallery/commercial-projects/com-1.jpg", alt: "Conference room with large display and video conferencing" },
-  { id: "com-2", src: "/gallery/commercial-projects/com-2.jpg", alt: "Lobby TV installation with digital signage" },
-  { id: "com-3", src: "/gallery/commercial-projects/com-3.jpg", alt: "Gym with multiple TVs and distributed audio" },
-  { id: "com-4", src: "/gallery/commercial-projects/com-4.jpg", alt: "Restaurant bar area with sports TVs" },
-  { id: "com-5", src: "/gallery/commercial-projects/com-5.jpg", alt: "Office boardroom AV system installation" },
-  { id: "com-6", src: "/gallery/commercial-projects/com-6.jpg", alt: "Private theater room in commercial space" },
-  { id: "com-7", src: "/gallery/commercial-projects/com-7.jpg", alt: "Medical office waiting room TV installation" },
-  { id: "com-8", src: "/gallery/commercial-projects/com-8.jpg", alt: "Video wall installation in retail space" },
+  {
+    id: "comm-1",
+    src: "/gallery/commercial/comm-1.jpg",
+    alt: "Commercial AV installation in a large open showroom with exposed beams, distributed track lighting, and ceiling-mounted speakers.",
+    orientation: "landscape",
+  },
+  {
+    id: "comm-2",
+    src: "/gallery/commercial/comm-2.jpg",
+    alt: "Conference room audio-visual installation featuring a motorized projection screen and integrated presentation system.",
+    orientation: "landscape",
+  },
+  {
+    id: "comm-3",
+    src: "/gallery/commercial/comm-3.jpg",
+    alt: "Commercial theater installation with ceiling acoustic treatment, wall speakers, and a large projection display.",
+    orientation: "landscape",
+  },
+  {
+    id: "comm-4",
+    src: "/gallery/commercial/comm-4.jpg",
+    alt: "Technician installing a commercial outdoor speaker for retail storefront audio and paging systems.",
+    orientation: "landscape",
+  },
 ];
 
 const commercialExtras: GalleryImage[] = [
-  { id: "com-extra-1", src: "/gallery/commercial-projects/com-extra-1.jpg", alt: "Conference room control system setup" },
-  { id: "com-extra-2", src: "/gallery/commercial-projects/com-extra-2.jpg", alt: "Commercial audio system rack" },
-  { id: "com-extra-3", src: "/gallery/commercial-projects/com-extra-3.jpg", alt: "Digital menu board installation" },
-  { id: "com-extra-4", src: "/gallery/commercial-projects/com-extra-4.jpg", alt: "Training room presentation system" },
+  {
+    id: "comm-extra-1",
+    src: "/gallery/commercial/comm-extra-1.jpg",
+    alt: "Mounted commercial display and integrated lighting in a professional reception area.",
+    orientation: "landscape",
+  },
+  {
+    id: "comm-extra-2",
+    src: "/gallery/commercial/comm-extra-2.jpg",
+    alt: "Built-in commercial display installation within a modern showroom cabinetry system.",
+    orientation: "landscape",
+  },
+  {
+    id: "comm-extra-3",
+    src: "/gallery/commercial/comm-extra-3.jpg",
+    alt: "Wall-mounted large display installed in a modern commercial showroom with custom cabinetry.",
+    orientation: "landscape",
+  },
+  {
+    id: "comm-extra-4",
+    src: "/gallery/commercial/comm-extra-4.jpg",
+    alt: "Custom commercial media wall with integrated display and modular shelving.",
+    orientation: "landscape",
+  },
+  {
+    id: "comm-extra-5",
+    src: "/gallery/commercial/comm-extra-5.jpg",
+    alt: "Technicians assembling a large commercial projection screen frame during an AV installation.",
+    orientation: "landscape",
+  },
+  {
+    id: "comm-extra-6",
+    src: "/gallery/commercial/comm-extra-6.jpg",
+    alt: "Commercial conference room installation with integrated projector, conference phone, and presentation equipment.",
+    orientation: "landscape",
+  },
 ];
 
 export const gallerySections: GallerySection[] = [
