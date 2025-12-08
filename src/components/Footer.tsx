@@ -104,12 +104,6 @@ const Footer = () => {
               >
                 Privacy Policy
               </Link>
-              <Link
-                href="/terms"
-                className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground"
-              >
-                Terms of Service
-              </Link>
               <a
                 href="https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=895999"
                 className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground"
