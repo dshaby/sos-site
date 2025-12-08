@@ -13,24 +13,31 @@ const HomePageContent = () => {
         subtitle="Transform your living space with premium audio-visual solutions and smart home automation. Over 20 years of excellence, licensed & bonded."
         backgroundImage="/images/hero-home-theater.jpg"
       >
-        <Button
-          size="lg"
-          className="h-auto px-7 py-5 text-base font-semibold"
-          asChild
-        >
-          <a href="tel:+18182573732">
-            <Phone className="mr-2 h-5 w-5" />
-            Book Free On-Site Estimate
-          </a>
-        </Button>
-        <Button
-          size="lg"
-          variant="outline"
-          className="h-auto px-8 py-6 text-lg bg-background/10 text-primary-foreground border-primary-foreground/20 backdrop-blur-sm hover:bg-background/20"
-          asChild
-        >
-          <Link href="/gallery">View Our Work</Link>
-        </Button>
+        <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <Button
+              size="lg"
+              className="h-auto px-7 py-5 text-base font-semibold"
+              asChild
+            >
+              <a href="tel:+18182573732">
+                <Phone className="mr-2 h-5 w-5" />
+                Book Free On-Site Estimate
+              </a>
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="h-auto px-8 py-6 text-lg bg-background/10 text-primary-foreground border-primary-foreground/20 backdrop-blur-sm hover:bg-background/20"
+              asChild
+            >
+              <Link href="/gallery">View Our Work</Link>
+            </Button>
+          </div>
+          <p className="text-sm text-primary-foreground/80 text-center">
+            Since 2007 · Licensed, bonded, insured (CA) · Serving Greater Los Angeles
+          </p>
+        </div>
       </Hero>
 
       {/* Trust Indicators */}
@@ -65,6 +72,51 @@ const HomePageContent = () => {
               Ongoing maintenance and support for all installations
             </p>
           </div>
+        </div>
+      </Section>
+
+      {/* Quick FAQ Teaser */}
+      <Section className="bg-muted/20">
+        <div className="max-w-4xl mx-auto text-center mb-8">
+          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
+            Quick Answers
+          </h2>
+          <p className="text-muted-foreground">
+            A few common questions we hear—get the full FAQ on our About page.
+          </p>
+        </div>
+        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+          <div className="space-y-2 rounded-lg border border-border bg-card p-4">
+            <h3 className="font-semibold text-foreground">
+              How soon can you start?
+            </h3>
+            <p className="text-sm text-muted-foreground">
+              Usually within about a week, depending on scope and scheduling.
+            </p>
+          </div>
+          <div className="space-y-2 rounded-lg border border-border bg-card p-4">
+            <h3 className="font-semibold text-foreground">
+              Do I need to buy equipment?
+            </h3>
+            <p className="text-sm text-muted-foreground">
+              We can spec and supply, or work with what you have and fill gaps
+              as needed.
+            </p>
+          </div>
+          <div className="space-y-2 rounded-lg border border-border bg-card p-4">
+            <h3 className="font-semibold text-foreground">
+              Are you licensed and insured?
+            </h3>
+            <p className="text-sm text-muted-foreground">
+              Yes—licensed, bonded, and insured in California for low-voltage
+              work.
+            </p>
+          </div>
+        </div>
+        <div className="mt-8 text-center">
+          <Button variant="outline" asChild>
+            <Link href="/about">View full FAQ</Link>
+          </Button>
         </div>
       </Section>
 

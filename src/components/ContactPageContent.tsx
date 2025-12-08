@@ -11,6 +11,7 @@ import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { supabase } from "@/lib/supabase/client";
+import Link from "next/link";
 
 interface FormData {
   name: string;
@@ -317,6 +318,10 @@ const ContactPageContent = () => {
                 </div>
               </CardContent>
             </Card>
+
+            <div className="text-sm text-muted-foreground">
+              Have more questions? See our <Link href="/about" className="underline hover:text-primary">FAQ</Link>.
+            </div>
           </div>
         </div>
       </Section>
