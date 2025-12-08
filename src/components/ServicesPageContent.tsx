@@ -172,7 +172,7 @@ const ServicesPageContent = () => {
       </Section>
 
       {/* Brands We Work With Section */}
-      <Section className="bg-muted/40 py-12 md:py-16">
+      <Section className="bg-muted/50 py-12 md:py-16">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-xl md:text-2xl font-semibold mb-3">
             Brands We Install &amp; Support

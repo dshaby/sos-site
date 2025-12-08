@@ -41,7 +41,7 @@ const HomePageContent = () => {
       </Hero>
 
       {/* Trust Indicators */}
-      <Section className="bg-muted/30">
+      <Section className="bg-muted/50">
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-3">
           <div className="text-center">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full border-2 border-primary text-primary mb-4">
@@ -76,7 +76,7 @@ const HomePageContent = () => {
       </Section>
 
       {/* Quick FAQ Teaser */}
-      <Section className="bg-muted/20">
+      <Section>
         <div className="max-w-4xl mx-auto text-center mb-8">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
             Quick Answers
@@ -124,6 +124,7 @@ const HomePageContent = () => {
       <Section
         title="Premium Installation Services"
         subtitle="From dedicated home theaters to whole-home automation, we bring your vision to life"
+        className="bg-muted/50"
       >
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {[

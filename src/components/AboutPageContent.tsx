@@ -127,7 +127,7 @@ const AboutPageContent = () => {
       <Section
         title="What We Do"
         subtitle="Complete low-voltage solutions for home theaters, smart homes, and connected spaces."
-        className="bg-muted/20"
+        className="bg-muted/50"
       >
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {/* Card 1 */}
@@ -294,7 +294,7 @@ const AboutPageContent = () => {
       </Section>
 
       {/* FAQ Section */}
-      <Section title="Frequently Asked Questions" className="bg-muted/20">
+      <Section title="Frequently Asked Questions" className="bg-muted/50">
         <div className="mx-auto max-w-3xl">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
