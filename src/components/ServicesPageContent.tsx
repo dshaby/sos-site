@@ -171,8 +171,35 @@ const ServicesPageContent = () => {
         </div>
       </Section>
 
+      {/* Brands We Work With Section */}
+      <Section className="bg-muted/40 py-12 md:py-16">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-xl md:text-2xl font-semibold mb-3">
+            Brands We Install &amp; Support
+          </h2>
+          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+            We work with trusted names in home theater, audio, and smart home technology.
+          </p>
+          <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 text-muted-foreground font-medium">
+            <span>Sony</span>
+            <span>Samsung</span>
+            <span>LG</span>
+            <span>Sonos</span>
+            <span>Denon</span>
+            <span>Marantz</span>
+            <span>Klipsch</span>
+            <span>JBL</span>
+            <span>Ubiquiti</span>
+            <span>Control4</span>
+            <span>Lutron</span>
+            <span>Hikvision</span>
+            <span className="text-primary/70">&amp; more</span>
+          </div>
+        </div>
+      </Section>
+
       {/* How It Works Section */}
-      <Section className="bg-muted/40 py-16 md:py-20">
+      <Section className="py-16 md:py-20">
         <div className="max-w-4xl mx-auto space-y-10">
           <div className="text-center max-w-2xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-semibold mb-3">
@@ -235,4 +262,3 @@ const ServicesPageContent = () => {
 };
 
 export default ServicesPageContent;
-

@@ -272,6 +272,25 @@ const AboutPageContent = () => {
             </AccordionItem>
 
             <AccordionItem value="item-4">
+              <AccordionTrigger>Can you mount a TV above a fireplace?</AccordionTrigger>
+              <AccordionContent>
+                Yes. We regularly install TVs above fireplaces, including on brick, stone, and tile
+                surfaces. We use the appropriate mounting hardware and can install articulating
+                mounts that tilt down for comfortable viewing, plus we handle all the wiring so
+                cables stay hidden.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-5">
+              <AccordionTrigger>What&apos;s included in the free on-site estimate?</AccordionTrigger>
+              <AccordionContent>
+                We walk through your space, discuss your goals and budget, review existing wiring
+                and equipment, and provide a detailed written estimate with recommendations—all at
+                no cost and with no obligation.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-6">
               <AccordionTrigger>How soon can you start my project?</AccordionTrigger>
               <AccordionContent>
                 Most projects begin within about a week, depending on scope and scheduling. After
@@ -279,17 +298,16 @@ const AboutPageContent = () => {
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-5">
-              <AccordionTrigger>
-                What happens during the free on-site estimate?
-              </AccordionTrigger>
+            <AccordionItem value="item-7">
+              <AccordionTrigger>Do you offer any warranty or support after installation?</AccordionTrigger>
               <AccordionContent>
-                We walk through your space, talk through your goals, review existing wiring and
-                equipment, and provide recommendations and an estimate tailored to your needs.
+                Yes. We stand behind our work and offer lifetime support on all installations. If you
+                ever have questions about your system or need adjustments, we&apos;re just a phone
+                call away.
               </AccordionContent>
             </AccordionItem>
 
-            <AccordionItem value="item-6">
+            <AccordionItem value="item-8">
               <AccordionTrigger>Where can I read your reviews?</AccordionTrigger>
               <AccordionContent>
                 You can read detailed customer reviews on Yelp. We maintain an average rating around
