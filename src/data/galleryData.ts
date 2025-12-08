@@ -172,19 +172,61 @@ const outdoorExtras: GalleryImage[] = [
 ];
 
 const securityHighlights: GalleryImage[] = [
-  { id: "sec-1", src: "/gallery/security-cameras/sec-1.jpg", alt: "Security camera installed at front entrance" },
-  { id: "sec-2", src: "/gallery/security-cameras/sec-2.jpg", alt: "DVR/NVR system setup in equipment closet" },
-  { id: "sec-3", src: "/gallery/security-cameras/sec-3.jpg", alt: "Driveway camera with wide-angle coverage" },
-  { id: "sec-4", src: "/gallery/security-cameras/sec-4.jpg", alt: "Indoor camera installation for monitoring" },
-  { id: "sec-5", src: "/gallery/security-cameras/sec-5.jpg", alt: "Multi-camera system viewing on TV display" },
-  { id: "sec-6", src: "/gallery/security-cameras/sec-6.jpg", alt: "Discreet camera placement on exterior" },
+  {
+    id: "sec-1",
+    src: "/gallery/security-cameras/sec-1.jpg",
+    alt: "Technician Ron installing a bullet security camera on exterior stucco wall above brick column",
+    orientation: "portrait",
+  },
+  {
+    id: "sec-2",
+    src: "/gallery/security-cameras/sec-2.jpg",
+    alt: "Spanish-style front entry with arched wooden door and discreet security camera above doorway",
+  },
+  {
+    id: "sec-3",
+    src: "/gallery/security-cameras/sec-3.jpg",
+    alt: "Driveway and garage area with security camera mounted under roof eave for vehicle coverage",
+  },
+  {
+    id: "sec-4",
+    src: "/gallery/security-cameras/sec-4.jpg",
+    alt: "Modern backyard with pool and security camera watching large glass doors to patio",
+  },
+  {
+    id: "sec-5",
+    src: "/gallery/security-cameras/sec-5.jpg",
+    alt: "Patio doors and bamboo landscaping with compact dome camera mounted under overhang",
+  },
+  {
+    id: "sec-6",
+    src: "/gallery/security-cameras/sec-6.jpg",
+    alt: "Clean white stucco exterior with sliding glass door, deck, and corner-mounted security camera",
+  },
 ];
 
 const securityExtras: GalleryImage[] = [
-  { id: "sec-extra-1", src: "/gallery/security-cameras/sec-extra-1.jpg", alt: "POE camera installation with clean wiring" },
-  { id: "sec-extra-2", src: "/gallery/security-cameras/sec-extra-2.jpg", alt: "Security system mobile app demonstration" },
-  { id: "sec-extra-3", src: "/gallery/security-cameras/sec-extra-3.jpg", alt: "Camera coverage of backyard area" },
-  { id: "sec-extra-4", src: "/gallery/security-cameras/sec-extra-4.jpg", alt: "Night vision camera test footage" },
+  {
+    id: "sec-extra-1",
+    src: "/gallery/security-cameras/sec-extra-1.jpg",
+    alt: "Security system monitor showing multi-camera views of home exterior and pool areas",
+  },
+  {
+    id: "sec-extra-2",
+    src: "/gallery/security-cameras/sec-extra-2.jpg",
+    alt: "Technician Ron mounting an indoor dome camera in ceiling corner with clean cable routing",
+    orientation: "portrait",
+  },
+  {
+    id: "sec-extra-3",
+    src: "/gallery/security-cameras/sec-extra-3.jpg",
+    alt: "New construction soffit with junction boxes and prewired cabling ready for exterior cameras",
+  },
+  {
+    id: "sec-extra-4",
+    src: "/gallery/security-cameras/sec-extra-4.jpg",
+    alt: "Rear view of Spanish-style home with multiple cameras providing coverage for patio and yard",
+  },
 ];
 
 const networkHighlights: GalleryImage[] = [
