@@ -230,21 +230,36 @@ const securityExtras: GalleryImage[] = [
 ];
 
 const networkHighlights: GalleryImage[] = [
-  { id: "net-1", src: "/gallery/network-installations/net-1.jpg", alt: "Network equipment rack with patch panels and switches" },
-  { id: "net-2", src: "/gallery/network-installations/net-2.jpg", alt: "Wi-Fi access point installation for whole-home coverage" },
-  { id: "net-3", src: "/gallery/network-installations/net-3.jpg", alt: "Structured network cabling in server closet" },
-  { id: "net-4", src: "/gallery/network-installations/net-4.jpg", alt: "Router and modem setup with clean cable management" },
-  { id: "net-5", src: "/gallery/network-installations/net-5.jpg", alt: "Ceiling-mounted wireless access point" },
-  { id: "net-6", src: "/gallery/network-installations/net-6.jpg", alt: "Ethernet wall plate installations throughout home" },
-  { id: "net-7", src: "/gallery/network-installations/net-7.jpg", alt: "Mesh Wi-Fi system configuration" },
-  { id: "net-8", src: "/gallery/network-installations/net-8.jpg", alt: "Network switch and UPS battery backup installation" },
+  {
+    id: "net-1",
+    src: "/gallery/network-installations/net-1.jpg",
+    alt: "Technician Ron seated on the floor configuring a professional network rack with neatly dressed white data cables and equipment",
+    orientation: "portrait",
+  },
+  {
+    id: "net-2",
+    src: "/gallery/network-installations/net-2.jpg",
+    alt: "Ron securing a large bundle of labeled low-voltage cables along the wall into a structured network rack",
+  },
+  {
+    id: "net-3",
+    src: "/gallery/network-installations/net-3.jpg",
+    alt: "Ron using a laptop on top of a mobile network rack in a modern kitchen while tuning switches and routers",
+  },
 ];
 
 const networkExtras: GalleryImage[] = [
-  { id: "net-extra-1", src: "/gallery/network-installations/net-extra-1.jpg", alt: "Cat6 cable termination at patch panel" },
-  { id: "net-extra-2", src: "/gallery/network-installations/net-extra-2.jpg", alt: "Wi-Fi signal testing and optimization" },
-  { id: "net-extra-3", src: "/gallery/network-installations/net-extra-3.jpg", alt: "Fiber optic connection installation" },
-  { id: "net-extra-4", src: "/gallery/network-installations/net-extra-4.jpg", alt: "Outdoor access point for extended coverage" },
+  {
+    id: "net-extra-1",
+    src: "/gallery/network-installations/net-extra-1.jpg",
+    alt: "Wall-mounted Wi-Fi access point above a wooden door next to a brick fireplace in a cozy living space",
+    orientation: "portrait",
+  },
+  {
+    id: "net-extra-2",
+    src: "/gallery/network-installations/net-extra-2.jpg",
+    alt: "Bedroom ceiling with a discreet Wi-Fi access point and smoke detector above the doorway for whole-home coverage",
+  },
 ];
 
 const commercialHighlights: GalleryImage[] = [
