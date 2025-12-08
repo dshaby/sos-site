@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Section from "@/components/Section";
 import { Button } from "@/components/ui/button";
@@ -237,6 +238,56 @@ const AboutPageContent = () => {
             <p className="text-muted-foreground">
               We calibrate the system, walk you through how to use it, and remain available for
               adjustments, upgrades, and ongoing support.
+            </p>
+          </div>
+        </div>
+      </Section>
+
+      {/* Credentials & Recognition */}
+      <Section
+        title="Credentials & Recognition"
+        subtitle="Licensed, bonded, and recognized for quality work."
+      >
+        <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:gap-16">
+          <div className="flex flex-col items-center text-center">
+            <Image
+              src="/badges/expertise-2021.webp"
+              alt="Expertise.com Best Home Theater Companies in Los Angeles 2021"
+              width={200}
+              height={200}
+              className="h-32 w-auto object-contain md:h-40"
+            />
+            <p className="mt-3 max-w-[200px] text-sm text-muted-foreground">
+              Named one of the Best Home Theater Companies in Los Angeles
+            </p>
+          </div>
+
+          <div className="flex flex-col items-center text-center">
+            <Link
+              href="https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=895999"
+              className="block transition-opacity hover:opacity-90"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/badges/ca-license.jpg"
+                alt="California Contractors State License Board - Active License #895999"
+                width={260}
+                height={180}
+                className="h-28 w-auto rounded border border-border object-contain shadow-sm md:h-36"
+              />
+            </Link>
+            <p className="mt-3 max-w-[220px] text-sm text-muted-foreground">
+              CA License #895999 · C-7 Low Voltage
+              <br />
+              <Link
+                href="https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=895999"
+                className="underline transition-colors hover:text-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Verify on CSLB.ca.gov
+              </Link>
             </p>
           </div>
         </div>
