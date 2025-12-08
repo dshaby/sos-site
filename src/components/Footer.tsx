@@ -110,6 +110,14 @@ const Footer = () => {
               >
                 Terms of Service
               </Link>
+              <a
+                href="https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=895999"
+                className="text-sm text-primary-foreground/60 transition-colors hover:text-primary-foreground"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Verify License #895999
+              </a>
             </div>
           </div>
         </div>
