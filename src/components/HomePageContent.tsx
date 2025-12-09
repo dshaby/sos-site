@@ -35,7 +35,8 @@ const HomePageContent = () => {
             </Button>
           </div>
           <p className="text-sm text-primary-foreground/80 text-center">
-            Since 2007 · Licensed, bonded, insured (CA) · Serving Greater Los Angeles
+            Since 2007 · Licensed, bonded, insured (CA) · Serving Greater Los
+            Angeles
           </p>
         </div>
       </Hero>
@@ -170,7 +171,7 @@ const HomePageContent = () => {
         </div>
         <div className="mt-12 text-center">
           <Button size="lg" variant="outline">
-            View All Services
+            <Link href="/services">View All Services</Link>
           </Button>
         </div>
       </Section>
