@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
+import { FaHouzz } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -109,9 +110,7 @@ const Footer = () => {
             className="text-primary-foreground/60 transition-colors hover:text-primary-foreground"
             aria-label="Houzz"
           >
-            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M12.5 3 5.5 7.5V21h4.5v-6h5v6h4.5V7.5L12.5 3z" />
-            </svg>
+            <FaHouzz className="h-5 w-5" aria-hidden="true" />
           </a>
           <a
             href="https://www.instagram.com/ron.shaby"

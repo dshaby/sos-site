@@ -11,6 +11,7 @@ import {
   Building2,
   CheckCircle2
 } from "lucide-react";
+import { FaHouzz, FaYelp } from "react-icons/fa";
 import {
   Accordion,
   AccordionContent,
@@ -248,7 +249,7 @@ const AboutPageContent = () => {
         title="Credentials & Recognition"
         subtitle="Licensed, bonded, and recognized for quality work."
       >
-        <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:gap-16">
+        <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:flex-wrap md:gap-12 lg:gap-16">
           <div className="flex flex-col items-center text-center">
             <Image
               src="/badges/expertise-2021.webp"
@@ -293,25 +294,42 @@ const AboutPageContent = () => {
 
           <div className="flex flex-col items-center text-center">
             <a
-              href="https://www.houzz.com/pro/laproav"
+              href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood"
               target="_blank"
               rel="noopener noreferrer"
               className="flex h-28 w-28 items-center justify-center rounded-lg border border-border bg-card transition-shadow hover:shadow-md md:h-36 md:w-36"
-              aria-label="Houzz profile"
+              aria-label="Yelp profile"
             >
-              <svg
-                className="h-12 w-auto text-[#4DBC15] md:h-16"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path d="M12.5 3 5.5 7.5V21h4.5v-6h5v6h4.5V7.5L12.5 3z" />
-              </svg>
+              <FaYelp className="h-12 w-12 text-[#d32323] md:h-16 md:w-16" aria-hidden="true" />
             </a>
             <p className="mt-3 max-w-[200px] text-sm text-muted-foreground">
-              Also reviewed on Houzz
+              4.8★ rating · 100+ reviews
               <br />
               <a
+                href="https://www.yelp.com/biz/standing-ovation-surround-sound-services-north-hollywood"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline transition-colors hover:text-primary"
+              >
+                View Yelp Reviews
+              </a>
+            </p>
+          </div>
+
+          <div className="flex flex-col items-center text-center">
+            <a
+            href="https://www.houzz.com/pro/laproav"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex h-28 w-28 items-center justify-center rounded-lg border border-border bg-card transition-shadow hover:shadow-md md:h-36 md:w-36"
+            aria-label="Houzz profile"
+          >
+            <FaHouzz className="h-12 w-12 text-[#4DBC15] md:h-16 md:w-16" aria-hidden="true" />
+          </a>
+          <p className="mt-3 max-w-[200px] text-sm text-muted-foreground">
+            Also reviewed on Houzz
+            <br />
+            <a
                 href="https://www.houzz.com/pro/laproav"
                 target="_blank"
                 rel="noopener noreferrer"
