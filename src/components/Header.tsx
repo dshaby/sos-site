@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Phone, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -15,10 +16,15 @@ const Header = () => {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <span className="text-2xl font-bold tracking-tight text-foreground">
-                SOS
-              </span>
+            <Link href="/" className="flex items-center space-x-3" aria-label="SOS Standing Ovation">
+              <Image
+                src="/logo.png"
+                alt="SOS Standing Ovation Surround Sound"
+                width={140}
+                height={40}
+                className="h-10 w-auto"
+                priority
+              />
               <span className="hidden sm:inline text-sm text-muted-foreground font-light">
                 Standing Ovation Surround Sound
               </span>
