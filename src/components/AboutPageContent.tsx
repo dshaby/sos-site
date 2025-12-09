@@ -290,6 +290,37 @@ const AboutPageContent = () => {
               </Link>
             </p>
           </div>
+
+          <div className="flex flex-col items-center text-center">
+            <a
+              href="https://www.houzz.com/pro/laproav"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-28 w-28 items-center justify-center rounded-lg border border-border bg-card transition-shadow hover:shadow-md md:h-36 md:w-36"
+              aria-label="Houzz profile"
+            >
+              <svg
+                className="h-12 w-auto text-[#4DBC15] md:h-16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path d="M12.5 3 5.5 7.5V21h4.5v-6h5v6h4.5V7.5L12.5 3z" />
+              </svg>
+            </a>
+            <p className="mt-3 max-w-[200px] text-sm text-muted-foreground">
+              Also reviewed on Houzz
+              <br />
+              <a
+                href="https://www.houzz.com/pro/laproav"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline transition-colors hover:text-primary"
+              >
+                View Houzz Profile
+              </a>
+            </p>
+          </div>
         </div>
       </Section>
 

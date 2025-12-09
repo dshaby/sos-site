@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -89,6 +89,57 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+
+        {/* Social Links */}
+        <div className="mb-8 flex justify-center space-x-5">
+          <a
+            href="https://www.facebook.com/hometheaterinstallers"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-foreground/60 transition-colors hover:text-primary-foreground"
+            aria-label="Facebook"
+          >
+            <Facebook className="h-5 w-5" />
+          </a>
+          <a
+            href="https://www.houzz.com/pro/laproav"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-foreground/60 transition-colors hover:text-primary-foreground"
+            aria-label="Houzz"
+          >
+            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12.5 3 5.5 7.5V21h4.5v-6h5v6h4.5V7.5L12.5 3z" />
+            </svg>
+          </a>
+          <a
+            href="https://www.instagram.com/ron.shaby"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-foreground/60 transition-colors hover:text-primary-foreground"
+            aria-label="Instagram"
+          >
+            <Instagram className="h-5 w-5" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ron-shaby/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-foreground/60 transition-colors hover:text-primary-foreground"
+            aria-label="LinkedIn"
+          >
+            <Linkedin className="h-5 w-5" />
+          </a>
+          <a
+            href="https://www.youtube.com/user/ronshaby/videos"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-foreground/60 transition-colors hover:text-primary-foreground"
+            aria-label="YouTube"
+          >
+            <Youtube className="h-5 w-5" />
+          </a>
         </div>
 
         {/* Bottom Bar */}
