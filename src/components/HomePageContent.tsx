@@ -9,15 +9,7 @@ const HomePageContent = () => {
     <>
       {/* Hero Section */}
       <Hero
-        title={
-          <>
-            <span className="block sm:hidden">
-              Smart Home Automation, Home Theater &amp; A/V Integration in Los Angeles
-            </span>
-            <span className="hidden sm:block">Smart Home Automation, Home Theater</span>
-            <span className="hidden sm:block">&amp; A/V Integration in Los Angeles</span>
-          </>
-        }
+        title="Smart Home Automation & Home Theater Installation in Los Angeles"
         subtitle="Transform your living space with premium audio-visual solutions and smart home automation. Over 20 years of excellence, licensed & bonded."
         backgroundImage="/images/hero-home-theater.jpg"
       >

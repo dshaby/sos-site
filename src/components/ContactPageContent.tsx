@@ -100,8 +100,8 @@ const ContactPageContent = () => {
             Contact Us
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground">
-            Schedule a free on-site consultation or send us a message with your
-            project details.
+            Send us a message with your project details to schedule a free
+            on-site consultation.
           </p>
         </div>
       </Section>
@@ -168,7 +168,7 @@ const ContactPageContent = () => {
                     onChange={(e) =>
                       setFormData({ ...formData, phone: e.target.value })
                     }
-                    placeholder="(800) 123-5678"
+                    placeholder="(800) 123-4567"
                   />
                 </div>
 
@@ -197,7 +197,7 @@ const ContactPageContent = () => {
                     onChange={(e) =>
                       setFormData({ ...formData, message: e.target.value })
                     }
-                    placeholder="Tell us about your project—room size, TV size, systems you'd like to install (home theater, security cameras, smart home, etc.), and any existing equipment."
+                    placeholder="Tell us about your project—systems you'd like to install (home theater, security cameras, smart home devices, etc.), and any existing equipment."
                   />
                 </div>
 

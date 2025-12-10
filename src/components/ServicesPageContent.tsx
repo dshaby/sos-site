@@ -66,7 +66,7 @@ const services = [
       "Protect your home with professional camera systems, DVR/NVR recording, alarm systems, and remote monitoring from your phone.",
     features: [
       "DVR/NVR systems with local storage",
-      "Alarm system installation and monitoring",
+      "Alarm system installation",
       "Remote viewing and alerts via phone or tablet"
     ]
   },
@@ -201,7 +201,7 @@ const ServicesPageContent = () => {
             <span>Klipsch</span>
             <span>JBL</span>
             <span>Ubiquiti</span>
-            <span>Control4</span>
+            <span>Crestron</span>
             <span>Lutron</span>
             <span>Hikvision</span>
             <span>Digital Watchdog (DW)</span>
@@ -211,7 +211,6 @@ const ServicesPageContent = () => {
             <span>Uniview</span>
             <span>Ecobee</span>
             <span>Alarm.com</span>
-            <span>Crestron</span>
             <span>DSC</span>
             <span>2GIG</span>
             <span>Kwikset</span>

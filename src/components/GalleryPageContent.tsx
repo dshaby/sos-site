@@ -111,7 +111,7 @@ const GalleryPageContent = () => {
             Ready to Start Your Project?
           </h2>
           <p className="text-muted-foreground mb-8">
-            Contact Ron for a free on-site estimate. We serve the Greater Los Angeles Area with professional A/V installation services.
+            Contact us for a free on-site estimate. We serve the Greater Los Angeles Area with professional A/V installation services.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
@@ -131,4 +131,3 @@ const GalleryPageContent = () => {
 };
 
 export default GalleryPageContent;
-
