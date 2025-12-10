@@ -201,6 +201,7 @@ const ServicesPageContent = () => {
             <span>Klipsch</span>
             <span>JBL</span>
             <span>Ubiquiti</span>
+            <span>Araknis</span>
             <span>Crestron</span>
             <span>Lutron</span>
             <span>Hikvision</span>
