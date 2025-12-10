@@ -197,7 +197,7 @@ const ContactPageContent = () => {
                     onChange={(e) =>
                       setFormData({ ...formData, message: e.target.value })
                     }
-                    placeholder="Tell us about your project—systems you'd like to install (home theater, security cameras, smart home devices, etc.), and any existing equipment."
+                    placeholder="Tell us about your project—systems you'd like to install (home theater, security cameras, smart home devices, network), and any existing equipment."
                   />
                 </div>
 
