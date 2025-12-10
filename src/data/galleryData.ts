@@ -78,7 +78,7 @@ const homeTheaterHighlights: GalleryImage[] = [
   { id: "ht-5", src: "/gallery/home-theater/highlight-5.jpg", alt: "Rustic home theater with projection screen, media cabinet, and floor-standing speakers with decorative sconces" },
   { id: "ht-6", src: "/gallery/home-theater/highlight-6.jpg", alt: "Modern living room with ultra-short-throw laser projector displaying 4K content on large screen" },
   { id: "ht-7", src: "/gallery/home-theater/highlight-7.jpg", alt: "Bright media room with ceiling-mounted projector, motorized screen, and in-ceiling surround speakers" },
-  { id: "ht-8", src: "/gallery/home-theater/highlight-8.jpg", alt: "Contemporary open living space with TV on glass-enclosed fireplace and in-wall speakers" },
+  { id: "ht-8", src: "/gallery/home-theater/highlight-8.jpg", alt: "Motorized drop-down projection screen above fireplace displaying sports in elegant living room with built-in bookshelves and track lighting" },
 ];
 
 const homeTheaterExtras: GalleryImage[] = [
