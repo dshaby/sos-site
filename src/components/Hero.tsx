@@ -3,7 +3,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 interface HeroProps {
-  title: string;
+  title: ReactNode;
   subtitle?: string;
   children?: ReactNode;
   backgroundImage?: string;
