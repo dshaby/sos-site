@@ -61,13 +61,13 @@ const services = [
   },
   {
     icon: Camera,
-    title: "Security Cameras & Surveillance",
+    title: "Security Cameras & Alarm Systems",
     description:
-      "Protect your home with professional camera systems, DVR/NVR recording, and remote viewing from your phone.",
+      "Protect your home with professional camera systems, DVR/NVR recording, alarm systems, and remote monitoring from your phone.",
     features: [
       "DVR/NVR systems with local storage",
-      "Remote viewing via phone or tablet",
-      "Coverage for doors, driveways, and key areas"
+      "Alarm system installation and monitoring",
+      "Remote viewing and alerts via phone or tablet"
     ]
   },
   {
@@ -78,18 +78,18 @@ const services = [
     features: [
       "Pre-wiring for new builds and remodels",
       "In-wall cable runs done properly",
-      "Residential and small commercial projects"
+      "Commercial and office space projects"
     ]
   },
   {
     icon: Lightbulb,
-    title: "Smart Remotes & Control Systems",
+    title: "Smart Home Automation",
     description:
-      "Simplify your entertainment with universal remotes that control your TV, receiver, streaming devices, and more.",
+      "Simplify your home with universal remotes, smart locks, thermostats, lighting, motorized blinds, and automated garage doors—all controlled from one place.",
     features: [
-      "One remote to replace them all",
-      "Simple control of all your devices",
-      "Conference room and lobby setups available"
+      "Lighting control and motorized blinds/shades",
+      "Smart door locks and garage door control",
+      "HVAC, thermostat, and alarm system integration"
     ]
   }
 ];
@@ -104,7 +104,9 @@ const ServicesPageContent = () => {
             Our Services
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-6">
-            Professional TV mounting, surround sound, and home theater installations across Los Angeles, designed for a clean look and an amazing experience.
+            Professional TV mounting, surround sound, and home theater
+            installations across Los Angeles, designed for a clean look and an
+            amazing experience.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
@@ -131,7 +133,8 @@ const ServicesPageContent = () => {
               What We Can Do For Your Home
             </h2>
             <p className="text-muted-foreground">
-              From simple TV mounting to full home theater systems, we handle the entire process, including wiring, calibration, and clean-up.
+              From simple TV mounting to full home theater systems, we handle
+              the entire process, including wiring, calibration, and clean-up.
             </p>
           </div>
 
@@ -178,21 +181,41 @@ const ServicesPageContent = () => {
             Brands We Install &amp; Support
           </h2>
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-            We work with trusted names in home theater, audio, and smart home technology.
+            We work with trusted names in home theater, audio, and smart home
+            technology.
           </p>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 text-muted-foreground font-medium">
             <span>Sony</span>
             <span>Samsung</span>
             <span>LG</span>
+            <span>SunBrite</span>
             <span>Sonos</span>
+            <span>Sonance</span>
+            <span>Bose</span>
+            <span>Origin Acoustics</span>
+            <span>Proficient</span>
+            <span>Episode</span>
             <span>Denon</span>
             <span>Marantz</span>
+            <span>Yamaha</span>
             <span>Klipsch</span>
             <span>JBL</span>
             <span>Ubiquiti</span>
             <span>Control4</span>
             <span>Lutron</span>
             <span>Hikvision</span>
+            <span>Digital Watchdog (DW)</span>
+            <span>Speco</span>
+            <span>Ring</span>
+            <span>Nest</span>
+            <span>Uniview</span>
+            <span>Ecobee</span>
+            <span>Alarm.com</span>
+            <span>Crestron</span>
+            <span>DSC</span>
+            <span>2GIG</span>
+            <span>Kwikset</span>
+            <span>Yale</span>
             <span className="text-primary/70">&amp; more</span>
           </div>
         </div>
@@ -206,23 +229,27 @@ const ServicesPageContent = () => {
               How Our Install Process Works
             </h2>
             <p className="text-muted-foreground">
-              We keep things simple and transparent, from your first call to the final walkthrough of your new setup.
+              We keep things simple and transparent, from your first call to the
+              final walkthrough of your new setup.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-sm">
             <div className="space-y-2">
               <div className="text-2xl font-semibold text-primary">1.</div>
-              <h3 className="font-medium">Schedule your visit</h3>
+              <h3 className="font-medium">Schedule a free consultation</h3>
               <p className="text-muted-foreground">
-                Tell us about your room, TV size, and any special requests.
+                We&apos;ll analyze your home layout, determine the type of
+                system to be installed, and plan integration with any existing
+                systems.
               </p>
             </div>
             <div className="space-y-2">
               <div className="text-2xl font-semibold text-primary">2.</div>
               <h3 className="font-medium">On-site assessment</h3>
               <p className="text-muted-foreground">
-                We review mounting options, wiring paths, and equipment placement.
+                We review mounting options, wiring paths, and equipment
+                placement.
               </p>
             </div>
             <div className="space-y-2">

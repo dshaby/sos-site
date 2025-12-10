@@ -73,8 +73,8 @@ const AboutPageContent = () => {
             <p>
               We specialize in designing and installing systems that look clean, perform reliably,
               and are easy for homeowners to use every day. From living rooms and dedicated theater
-              rooms to outdoor entertainment areas and small commercial spaces, we handle
-              everything from cabling and hardware selection to programming and final tuning.
+              rooms to outdoor entertainment areas and commercial spaces, we handle everything from
+              cabling and hardware selection to programming and final tuning.
             </p>
             <p>
               We are fully licensed, bonded, and insured in the State of California. Our team takes
@@ -109,9 +109,7 @@ const AboutPageContent = () => {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary" />
-                <span className="text-muted-foreground">
-                  Residential and light commercial projects
-                </span>
+                <span className="text-muted-foreground">Residential and commercial projects</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle2 className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary" />
@@ -159,7 +157,8 @@ const AboutPageContent = () => {
             <Lightbulb className="mb-4 h-10 w-10 text-primary" />
             <h3 className="mb-3 text-xl font-semibold text-foreground">Smart Home Automation</h3>
             <p className="text-muted-foreground">
-              Lighting, shades, climate, and scenes that you can control from your phone or voice
+              Smart lighting, motorized blinds and shades, smart door locks, thermostats and climate
+              control, and automated garage doors—all controlled from your phone or voice
               assistant.
             </p>
           </div>
@@ -179,10 +178,11 @@ const AboutPageContent = () => {
           <div className="rounded-lg border bg-card p-6 text-card-foreground shadow-sm transition-shadow hover:shadow-md">
             <Shield className="mb-4 h-10 w-10 text-primary" />
             <h3 className="mb-3 text-xl font-semibold text-foreground">
-              Security &amp; Surveillance Systems
+              Security, Surveillance &amp; Alarm Systems
             </h3>
             <p className="text-muted-foreground">
-              Cameras, recorders, remote access, and integrated monitoring solutions.
+              Professional camera systems, DVR/NVR recording, alarm system installation, and remote
+              monitoring from your phone.
             </p>
           </div>
 
@@ -191,7 +191,7 @@ const AboutPageContent = () => {
             <Building2 className="mb-4 h-10 w-10 text-primary" />
             <h3 className="mb-3 text-xl font-semibold text-foreground">Commercial &amp; Office Spaces</h3>
             <p className="text-muted-foreground">
-              Conference rooms, lobbies, and small business environments that need reliable AV and
+              Conference rooms, lobbies, and business environments that need reliable AV and
               networking.
             </p>
           </div>
@@ -271,7 +271,7 @@ const AboutPageContent = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src="/badges/ca-license.jpg"
+                src="/badges/ca-license-cslb.jpg"
                 alt="California Contractors State License Board - Active License #895999"
                 width={260}
                 height={180}

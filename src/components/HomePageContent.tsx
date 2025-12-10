@@ -9,7 +9,7 @@ const HomePageContent = () => {
     <>
       {/* Hero Section */}
       <Hero
-        title="Smart Home, Home Theater, and A/V Installation in Los Angeles"
+        title="Smart Home Automation, Home Theater, and A/V Integration in Los Angeles"
         subtitle="Transform your living space with premium audio-visual solutions and smart home automation. Over 20 years of excellence, licensed & bonded."
         backgroundImage="/images/hero-home-theater.jpg"
       >

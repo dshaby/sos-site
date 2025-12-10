@@ -168,7 +168,7 @@ const ContactPageContent = () => {
                     onChange={(e) =>
                       setFormData({ ...formData, phone: e.target.value })
                     }
-                    placeholder="(818) 555-1234"
+                    placeholder="(800) 123-5678"
                   />
                 </div>
 
@@ -197,7 +197,7 @@ const ContactPageContent = () => {
                     onChange={(e) =>
                       setFormData({ ...formData, message: e.target.value })
                     }
-                    placeholder="Tell us about your project, room size, TV size, etc."
+                    placeholder="Tell us about your project—room size, TV size, systems you'd like to install (home theater, security cameras, smart home, etc.), and any existing equipment."
                   />
                 </div>
 
@@ -320,7 +320,11 @@ const ContactPageContent = () => {
             </Card>
 
             <div className="text-sm text-muted-foreground">
-              Have more questions? See our <Link href="/about" className="underline hover:text-primary">FAQ</Link>.
+              Have more questions? See our{" "}
+              <Link href="/about" className="underline hover:text-primary">
+                FAQ
+              </Link>
+              .
             </div>
           </div>
         </div>

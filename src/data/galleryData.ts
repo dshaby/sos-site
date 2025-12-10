@@ -41,9 +41,9 @@ const tvInstallationHighlights: GalleryImage[] = [
   { id: "tv-4", src: "/gallery/tv-installation/highlight-4.jpg", alt: "TV on modern fireplace mantel in upscale living room with mirrored walls and art" },
   { id: "tv-5", src: "/gallery/tv-installation/highlight-5.jpg", alt: "Large TV above white stone fireplace in contemporary living room with in-ceiling speakers" },
   { id: "tv-6", src: "/gallery/tv-installation/highlight-6.jpg", alt: "Motorized TV lift at foot of bed showing rear mounting mechanism" },
-  { id: "tv-7", src: "/gallery/tv-installation/highlight-7.jpg", alt: "Wall-mounted TV with soundbar on entertainment console in family room" },
+  { id: "tv-7", src: "/gallery/tv-installation/highlight-7.jpg", alt: "Flat-screen TV flush-mounted on white wall with in-wall left, right, and center channel speakers in modern living room with hardwood floors" },
   { id: "tv-8", src: "/gallery/tv-installation/highlight-8.jpg", alt: "TV above traditional fireplace with in-wall speakers and soundbar on mantel" },
-  { id: "tv-9", src: "/gallery/tv-installation/highlight-9.jpg", alt: "TV in custom built-in cabinet in rustic room with vaulted wood ceiling" },
+  { id: "tv-9", src: "/gallery/tv-installation/highlight-9.jpg", alt: "Large wall-mounted TV with in-wall surround speakers in Spanish-style living room featuring arched doorway, wrought iron balcony, and oak hardwood floors" },
   { id: "tv-10", src: "/gallery/tv-installation/highlight-10.jpg", alt: "Outdoor TV on motorized lift in wooden cabinet on patio" },
   { id: "tv-11", src: "/gallery/tv-installation/highlight-11.jpg", alt: "Large TV mounted on marble fireplace with streaming apps and soundbar in elegant living room" },
   { id: "tv-12", src: "/gallery/tv-installation/highlight-12.jpg", alt: "Curved TV mounted above white herringbone-tile fireplace displaying streaming apps in cozy living room" },
@@ -55,7 +55,7 @@ const tvInstallationHighlights: GalleryImage[] = [
 const tvInstallationExtras: GalleryImage[] = [
   { id: "tv-extra-1", src: "/gallery/tv-installation/extra-1.jpg", alt: "TV mounted above beige stone fireplace in classic living room with piano and family photos" },
   { id: "tv-extra-2", src: "/gallery/tv-installation/extra-2.jpg", alt: "Bedroom TV mounted above light wood dresser beside frosted glass door and wardrobe" },
-  { id: "tv-extra-3", src: "/gallery/tv-installation/extra-3.jpg", alt: "Alternate view of bedroom with wall-mounted TV above dresser and sliding closet doors" },
+  { id: "tv-extra-3", src: "/gallery/tv-installation/extra-3.jpg", alt: "Wall-mounted flat-screen TV with high-end tower speakers and AV receiver on walnut media console in modern living room" },
   { id: "tv-extra-4", src: "/gallery/tv-installation/extra-4.jpg", alt: "Large TV mounted above long media console in modern open-concept living and dining room" },
   { id: "tv-extra-5", src: "/gallery/tv-installation/extra-5.jpg", alt: "Art-frame style TV displaying cityscape above sleek dark-tile fireplace with bar cart nearby" },
   { id: "tv-extra-6", src: "/gallery/tv-installation/extra-6.jpg", alt: "Flat-screen TV mounted above brick fireplace with decorative mantel and built-in shelving" },
@@ -83,12 +83,11 @@ const homeTheaterHighlights: GalleryImage[] = [
 
 const homeTheaterExtras: GalleryImage[] = [
   { id: "ht-extra-1", src: "/gallery/home-theater/extra-1.jpg", alt: "Commercial screening room with purple accent wall, ceiling-mounted projector, and stadium seating" },
-  { id: "ht-extra-2", src: "/gallery/home-theater/extra-2.jpg", alt: "Modern living room with TV mounted above fireplace and in-ceiling distributed audio" },
-  { id: "ht-extra-3", src: "/gallery/home-theater/extra-3.jpg", alt: "Home theater with motorized projection screen, custom cabinetry, and professional equipment rack" },
-  { id: "ht-extra-4", src: "/gallery/home-theater/extra-4.jpg", alt: "Wall-mounted TV with high-end tower speakers and AV equipment in modern media room" },
-  { id: "ht-extra-5", src: "/gallery/home-theater/extra-5.jpg", alt: "In-ceiling speaker prewire installation with Dolby Atmos layout during construction" },
-  { id: "ht-extra-6", src: "/gallery/home-theater/extra-6.jpg", alt: "Installation team assembling large projection screen frame in dedicated theater room" },
-  { id: "ht-extra-7", src: "/gallery/home-theater/extra-7.jpg", alt: "Rear projector mounting platform with structured wiring during theater room build" },
+  { id: "ht-extra-2", src: "/gallery/home-theater/extra-2.jpg", alt: "Home theater with motorized projection screen, custom cabinetry, and professional equipment rack" },
+  { id: "ht-extra-3", src: "/gallery/home-theater/extra-3.jpg", alt: "Wall-mounted TV with high-end tower speakers and AV equipment in modern media room" },
+  { id: "ht-extra-4", src: "/gallery/home-theater/extra-4.jpg", alt: "In-ceiling speaker prewire installation with Dolby Atmos layout during construction" },
+  { id: "ht-extra-5", src: "/gallery/home-theater/extra-5.jpg", alt: "Installation team assembling large projection screen frame in dedicated theater room" },
+  { id: "ht-extra-6", src: "/gallery/home-theater/extra-6.jpg", alt: "Rear projector mounting platform with structured wiring during theater room build" },
 ];
 
 const prewireHighlights: GalleryImage[] = [
@@ -169,6 +168,8 @@ const outdoorExtras: GalleryImage[] = [
   { id: "out-extra-10", src: "/gallery/outdoor-entertainment/out-extra-10.jpg", alt: "Large covered patio with family seating and wall-mounted outdoor speakers flanking French doors" },
   { id: "out-extra-11", src: "/gallery/outdoor-entertainment/out-extra-11.jpg", alt: "Outdoor gym with natural wood ceiling, in-ceiling speakers, and wall-mounted TV for workouts" },
   { id: "out-extra-12", src: "/gallery/outdoor-entertainment/out-extra-12.jpg", alt: "In-ground outdoor subwoofer installed in landscaped garden bed for seamless bass coverage" },
+  { id: "out-extra-13", src: "/gallery/outdoor-entertainment/out-extra-13.jpg", alt: "Poolside landscape rock speakers hidden among lush hedges and mature trees in resort-style backyard" },
+  { id: "out-extra-14", src: "/gallery/outdoor-entertainment/out-extra-14.jpg", alt: "Raised spa with stone coping and outdoor audio wiring in elegant French country backyard with rose garden" },
 ];
 
 const securityHighlights: GalleryImage[] = [
