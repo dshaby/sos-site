@@ -296,21 +296,28 @@ const ServicesPageContent = () => {
             services throughout Los Angeles County. Select your city for
             local service details:
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 mb-8">
             {[
+              { name: "North Hollywood", slug: "north-hollywood" },
               { name: "Beverly Hills", slug: "beverly-hills" },
+              { name: "Bel Air", slug: "bel-air" },
+              { name: "Brentwood", slug: "brentwood" },
+              { name: "Pacific Palisades", slug: "pacific-palisades" },
               { name: "Burbank", slug: "burbank" },
-              { name: "Studio City", slug: "studio-city" },
               { name: "Glendale", slug: "glendale" },
               { name: "Pasadena", slug: "pasadena" },
+              { name: "Studio City", slug: "studio-city" },
+              { name: "Toluca Lake", slug: "toluca-lake" },
               { name: "Sherman Oaks", slug: "sherman-oaks" },
               { name: "Encino", slug: "encino" },
+              { name: "Van Nuys", slug: "van-nuys" },
+              { name: "Northridge", slug: "northridge" },
+              { name: "Woodland Hills", slug: "woodland-hills" },
               { name: "Calabasas", slug: "calabasas" },
+              { name: "Malibu", slug: "malibu" },
               { name: "Santa Monica", slug: "santa-monica" },
               { name: "West Hollywood", slug: "west-hollywood" },
-              { name: "Malibu", slug: "malibu" },
               { name: "Culver City", slug: "culver-city" },
-              { name: "Woodland Hills", slug: "woodland-hills" },
             ].map((city) => (
               <Link
                 key={city.slug}
@@ -322,9 +329,8 @@ const ServicesPageContent = () => {
             ))}
           </div>
           <p className="text-sm text-muted-foreground">
-            Also serving: North Hollywood &middot; Chatsworth &middot; Tarzana
-            &middot; Van Nuys &middot; Northridge &middot; Thousand Oaks
-            &middot; Reseda &middot; and more
+            Also serving: Chatsworth &middot; Tarzana &middot; Reseda
+            &middot; Thousand Oaks &middot; and more throughout Los Angeles County
           </p>
           <p className="text-sm text-muted-foreground mt-3">
             Don&apos;t see your city?{" "}
