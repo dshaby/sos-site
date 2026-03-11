@@ -291,16 +291,47 @@ const ServicesPageContent = () => {
           <h2 className="text-xl md:text-2xl font-semibold mb-3">
             Serving Greater Los Angeles
           </h2>
-          <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            We provide home theater installation, TV mounting, and smart home services
-            throughout Los Angeles County, including:
+          <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
+            We provide home theater installation, TV mounting, and smart home
+            services throughout Los Angeles County. Select your city for
+            local service details:
           </p>
-          <p className="text-muted-foreground font-medium leading-relaxed">
-            North Hollywood &middot; Beverly Hills &middot; Burbank &middot; Glendale &middot; Pasadena &middot; Studio City &middot; Sherman Oaks &middot; Encino &middot; Woodland Hills &middot; Calabasas &middot; Santa Monica &middot; West Hollywood &middot; Culver City &middot; Malibu &middot; Chatsworth &middot; Tarzana &middot; Van Nuys &middot; Northridge &middot; Thousand Oaks &middot; Reseda
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 mb-8">
+            {[
+              { name: "Beverly Hills", slug: "beverly-hills" },
+              { name: "Burbank", slug: "burbank" },
+              { name: "Studio City", slug: "studio-city" },
+              { name: "Glendale", slug: "glendale" },
+              { name: "Pasadena", slug: "pasadena" },
+              { name: "Sherman Oaks", slug: "sherman-oaks" },
+              { name: "Encino", slug: "encino" },
+              { name: "Calabasas", slug: "calabasas" },
+              { name: "Santa Monica", slug: "santa-monica" },
+              { name: "West Hollywood", slug: "west-hollywood" },
+              { name: "Malibu", slug: "malibu" },
+              { name: "Culver City", slug: "culver-city" },
+              { name: "Woodland Hills", slug: "woodland-hills" },
+            ].map((city) => (
+              <Link
+                key={city.slug}
+                href={`/services/${city.slug}`}
+                className="rounded-lg border border-border bg-background px-3 py-2 text-sm font-medium text-foreground transition-colors hover:border-primary hover:text-primary"
+              >
+                {city.name}
+              </Link>
+            ))}
+          </div>
+          <p className="text-sm text-muted-foreground">
+            Also serving: North Hollywood &middot; Chatsworth &middot; Tarzana
+            &middot; Van Nuys &middot; Northridge &middot; Thousand Oaks
+            &middot; Reseda &middot; and more
           </p>
-          <p className="text-sm text-muted-foreground mt-4">
+          <p className="text-sm text-muted-foreground mt-3">
             Don&apos;t see your city?{" "}
-            <a href="tel:+18182573732" className="text-primary underline underline-offset-4">
+            <a
+              href="tel:+18182573732"
+              className="text-primary underline underline-offset-4"
+            >
               Call (818) 257-3732
             </a>{" "}
             — we serve most of the greater LA area.
