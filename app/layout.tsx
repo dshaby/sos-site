@@ -52,6 +52,7 @@ const localBusinessSchema = {
   alternateName: "Standing Ovation Surround Sound",
   url: "https://www.laproav.com",
   logo: "https://www.laproav.com/favicon.png",
+  image: "https://www.laproav.com/images/og-default.png",
   description:
     "Licensed home theater, TV mounting, Dolby Atmos surround sound, whole-home audio, smart home automation, security camera, and network installation services in Los Angeles. CA License #895999.",
   telephone: "+18182573732",
