@@ -357,8 +357,11 @@ const AboutPageContent = () => {
             <AccordionItem value="item-2">
               <AccordionTrigger>Which areas do you serve?</AccordionTrigger>
               <AccordionContent>
-                We serve homeowners and businesses throughout the Greater Los Angeles Area and
-                surrounding communities.
+                We serve homeowners and businesses throughout Greater Los Angeles, including North
+                Hollywood, Beverly Hills, Burbank, Glendale, Pasadena, Studio City, Sherman Oaks,
+                Encino, Woodland Hills, Calabasas, Santa Monica, West Hollywood, Culver City,
+                Malibu, and surrounding communities. Not sure if we cover your area? Give us a call
+                at (818) 257-3732.
               </AccordionContent>
             </AccordionItem>
 

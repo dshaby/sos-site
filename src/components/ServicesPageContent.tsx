@@ -284,6 +284,29 @@ const ServicesPageContent = () => {
           </div>
         </div>
       </Section>
+
+      {/* Service Area Section */}
+      <Section className="bg-muted/50 py-12 md:py-16">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-xl md:text-2xl font-semibold mb-3">
+            Serving Greater Los Angeles
+          </h2>
+          <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
+            We provide home theater installation, TV mounting, and smart home services
+            throughout Los Angeles County, including:
+          </p>
+          <p className="text-muted-foreground font-medium leading-relaxed">
+            North Hollywood &middot; Beverly Hills &middot; Burbank &middot; Glendale &middot; Pasadena &middot; Studio City &middot; Sherman Oaks &middot; Encino &middot; Woodland Hills &middot; Calabasas &middot; Santa Monica &middot; West Hollywood &middot; Culver City &middot; Malibu &middot; Chatsworth &middot; Tarzana &middot; Van Nuys &middot; Northridge &middot; Thousand Oaks &middot; Reseda
+          </p>
+          <p className="text-sm text-muted-foreground mt-4">
+            Don&apos;t see your city?{" "}
+            <a href="tel:+18182573732" className="text-primary underline underline-offset-4">
+              Call (818) 257-3732
+            </a>{" "}
+            — we serve most of the greater LA area.
+          </p>
+        </div>
+      </Section>
     </>
   );
 };
